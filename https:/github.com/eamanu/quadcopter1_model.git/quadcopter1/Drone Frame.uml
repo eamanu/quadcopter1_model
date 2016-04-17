@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks" xmlns:PortAndFlows="http://www.eclipse.org/papyrus/0.7.0/SysML/PortAndFlows" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks http://www.eclipse.org/papyrus/0.7.0/SysML/PortAndFlows http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows">
+  <uml:Model xmi:id="_3N54sAToEeaPCaDp9Z2FXw" name="RootElement">
+    <packagedElement xmi:type="uml:Package" xmi:id="_Vb7ZsATtEeaPCaDp9Z2FXw" name="Block">
+      <packagedElement xmi:type="uml:Class" xmi:id="_6NeO4ATtEeaPCaDp9Z2FXw" name="Drone Frame">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_A30nAATuEeaPCaDp9Z2FXw" name="ADCS" type="_CklDwATuEeaPCaDp9Z2FXw" aggregation="composite" association="_CkoHEATuEeaPCaDp9Z2FXw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_vmMcQATvEeaPCaDp9Z2FXw" name="Propulsion" type="_wcvCsATvEeaPCaDp9Z2FXw" aggregation="composite" association="_wcwQ0ATvEeaPCaDp9Z2FXw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_VDngAATwEeaPCaDp9Z2FXw" name="Payload" type="_VQZXwATwEeaPCaDp9Z2FXw" aggregation="composite" association="_VQal4ATwEeaPCaDp9Z2FXw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_jDi-kATwEeaPCaDp9Z2FXw" name="Power" type="_k9W_4ATwEeaPCaDp9Z2FXw" aggregation="composite" association="_k9YOAATwEeaPCaDp9Z2FXw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_xPVu4ATwEeaPCaDp9Z2FXw" name="CD&amp;H" type="_xbX_wATwEeaPCaDp9Z2FXw" aggregation="composite" association="_xbZN4ATwEeaPCaDp9Z2FXw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_zvkP8ATwEeaPCaDp9Z2FXw" name="COM" type="_z7SXwATwEeaPCaDp9Z2FXw" aggregation="composite" association="_z7Tl4ATwEeaPCaDp9Z2FXw"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_bg6eIATxEeaPCaDp9Z2FXw">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_bg7sQATxEeaPCaDp9Z2FXw" partWithPort="_A30nAATuEeaPCaDp9Z2FXw" role="_7xna0ATwEeaPCaDp9Z2FXw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_bg7sQQTxEeaPCaDp9Z2FXw" partWithPort="_xPVu4ATwEeaPCaDp9Z2FXw" role="_R4UzQATxEeaPCaDp9Z2FXw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_0GtvMATxEeaPCaDp9Z2FXw" name="Connector1">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_0GuWQATxEeaPCaDp9Z2FXw" partWithPort="_vmMcQATvEeaPCaDp9Z2FXw" role="_quSnQATxEeaPCaDp9Z2FXw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_0GuWQQTxEeaPCaDp9Z2FXw" partWithPort="_xPVu4ATwEeaPCaDp9Z2FXw" role="_lAGVYATxEeaPCaDp9Z2FXw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_-NQhYATxEeaPCaDp9Z2FXw" name="VCC + GND">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_-NRIcATxEeaPCaDp9Z2FXw" partWithPort="_jDi-kATwEeaPCaDp9Z2FXw" role="_7DWKIATxEeaPCaDp9Z2FXw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_-NRIcQTxEeaPCaDp9Z2FXw" partWithPort="_xPVu4ATwEeaPCaDp9Z2FXw" role="_3oLq0ATxEeaPCaDp9Z2FXw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_dWMvUATyEeaPCaDp9Z2FXw" name="7-14 V">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_dWNWYATyEeaPCaDp9Z2FXw" partWithPort="_jDi-kATwEeaPCaDp9Z2FXw" role="_MOwtQATyEeaPCaDp9Z2FXw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_dWNWYQTyEeaPCaDp9Z2FXw" partWithPort="_vmMcQATvEeaPCaDp9Z2FXw" role="_HjTDsATyEeaPCaDp9Z2FXw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_sFBewATzEeaPCaDp9Z2FXw" name="data">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_sFBewQTzEeaPCaDp9Z2FXw" partWithPort="_xPVu4ATwEeaPCaDp9Z2FXw" role="_D3XIAATzEeaPCaDp9Z2FXw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_sFBewgTzEeaPCaDp9Z2FXw" partWithPort="_zvkP8ATwEeaPCaDp9Z2FXw" role="_uLDMkATyEeaPCaDp9Z2FXw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_spjvMATzEeaPCaDp9Z2FXw">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_spkWQATzEeaPCaDp9Z2FXw" partWithPort="_xPVu4ATwEeaPCaDp9Z2FXw" role="__zfC4ATyEeaPCaDp9Z2FXw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_spkWQQTzEeaPCaDp9Z2FXw" partWithPort="_zvkP8ATwEeaPCaDp9Z2FXw" role="_uyj4gATyEeaPCaDp9Z2FXw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_VgqrkAT0EeaPCaDp9Z2FXw" name="Connector2">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_VgqrkQT0EeaPCaDp9Z2FXw" partWithPort="_xPVu4ATwEeaPCaDp9Z2FXw" role="_G4YB8ATzEeaPCaDp9Z2FXw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_VgqrkgT0EeaPCaDp9Z2FXw" partWithPort="_VDngAATwEeaPCaDp9Z2FXw" role="_r6DaUATyEeaPCaDp9Z2FXw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_WLxeEAT0EeaPCaDp9Z2FXw" name="Connector3">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_WLyFIAT0EeaPCaDp9Z2FXw" partWithPort="_VDngAATwEeaPCaDp9Z2FXw" role="_sxpwsATyEeaPCaDp9Z2FXw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_WLyFIQT0EeaPCaDp9Z2FXw" partWithPort="_xPVu4ATwEeaPCaDp9Z2FXw" role="_IvkNEATzEeaPCaDp9Z2FXw"/>
+        </ownedConnector>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_CklDwATuEeaPCaDp9Z2FXw" name="Block1">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_7xna0ATwEeaPCaDp9Z2FXw" name="output data" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_CkoHEATuEeaPCaDp9Z2FXw" name="Association1" memberEnd="_A30nAATuEeaPCaDp9Z2FXw _CkoHEwTuEeaPCaDp9Z2FXw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CkoHEQTuEeaPCaDp9Z2FXw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CkoHEgTuEeaPCaDp9Z2FXw" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_CkoHEwTuEeaPCaDp9Z2FXw" name="drone frame" type="_6NeO4ATtEeaPCaDp9Z2FXw" association="_CkoHEATuEeaPCaDp9Z2FXw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_D3hSUATuEeaPCaDp9Z2FXw" name="Actor1"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_wcvCsATvEeaPCaDp9Z2FXw" name="Block2">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_quSnQATxEeaPCaDp9Z2FXw" name="Input data" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_HjTDsATyEeaPCaDp9Z2FXw" name="Vcc + GND" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_wcwQ0ATvEeaPCaDp9Z2FXw" name="Association2" memberEnd="_vmMcQATvEeaPCaDp9Z2FXw _wcwQ0wTvEeaPCaDp9Z2FXw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wcwQ0QTvEeaPCaDp9Z2FXw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wcwQ0gTvEeaPCaDp9Z2FXw" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_wcwQ0wTvEeaPCaDp9Z2FXw" name="drone frame" type="_6NeO4ATtEeaPCaDp9Z2FXw" association="_wcwQ0ATvEeaPCaDp9Z2FXw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_VQZXwATwEeaPCaDp9Z2FXw" name="Block3">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_r6DaUATyEeaPCaDp9Z2FXw" name="flowport1" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_sxpwsATyEeaPCaDp9Z2FXw" name="flowport2" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_VQal4ATwEeaPCaDp9Z2FXw" name="Association3" memberEnd="_VDngAATwEeaPCaDp9Z2FXw _VQal4wTwEeaPCaDp9Z2FXw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VQal4QTwEeaPCaDp9Z2FXw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VQal4gTwEeaPCaDp9Z2FXw" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_VQal4wTwEeaPCaDp9Z2FXw" name="drone frame" type="_6NeO4ATtEeaPCaDp9Z2FXw" association="_VQal4ATwEeaPCaDp9Z2FXw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_k9W_4ATwEeaPCaDp9Z2FXw" name="Block4">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_7DWKIATxEeaPCaDp9Z2FXw" name="9 V" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_MOwtQATyEeaPCaDp9Z2FXw" name="7-14 V" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_k9YOAATwEeaPCaDp9Z2FXw" name="Association4" memberEnd="_jDi-kATwEeaPCaDp9Z2FXw _k9YOAwTwEeaPCaDp9Z2FXw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_k9YOAQTwEeaPCaDp9Z2FXw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k9YOAgTwEeaPCaDp9Z2FXw" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_k9YOAwTwEeaPCaDp9Z2FXw" name="drone frame" type="_6NeO4ATtEeaPCaDp9Z2FXw" association="_k9YOAATwEeaPCaDp9Z2FXw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_xbX_wATwEeaPCaDp9Z2FXw" name="Block5">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_R4UzQATxEeaPCaDp9Z2FXw" name="Input data adc" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_lAGVYATxEeaPCaDp9Z2FXw" name="Propulsion output" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_3oLq0ATxEeaPCaDp9Z2FXw" name="Vcc + GND" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="__zfC4ATyEeaPCaDp9Z2FXw" name="Command &amp; HK" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_D3XIAATzEeaPCaDp9Z2FXw" name="output data_to_ground" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_G4YB8ATzEeaPCaDp9Z2FXw" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_IvkNEATzEeaPCaDp9Z2FXw" name=" " aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_xbZN4ATwEeaPCaDp9Z2FXw" name="Association5" memberEnd="_xPVu4ATwEeaPCaDp9Z2FXw _xbZN4wTwEeaPCaDp9Z2FXw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xbZN4QTwEeaPCaDp9Z2FXw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xbZN4gTwEeaPCaDp9Z2FXw" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_xbZN4wTwEeaPCaDp9Z2FXw" name="drone frame" type="_6NeO4ATtEeaPCaDp9Z2FXw" association="_xbZN4ATwEeaPCaDp9Z2FXw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_z7SXwATwEeaPCaDp9Z2FXw" name="Block6">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_uLDMkATyEeaPCaDp9Z2FXw" name="output data_to_ground" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_uyj4gATyEeaPCaDp9Z2FXw" name="Command &amp; HK" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_z7Tl4ATwEeaPCaDp9Z2FXw" name="Association6" memberEnd="_zvkP8ATwEeaPCaDp9Z2FXw _z7Tl4wTwEeaPCaDp9Z2FXw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z7Tl4QTwEeaPCaDp9Z2FXw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z7Tl4gTwEeaPCaDp9Z2FXw" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_z7Tl4wTwEeaPCaDp9Z2FXw" name="drone frame" type="_6NeO4ATtEeaPCaDp9Z2FXw" association="_z7Tl4ATwEeaPCaDp9Z2FXw"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3TxQIAToEeaPCaDp9Z2FXw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3TyeQAToEeaPCaDp9Z2FXw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_TZ_nULU5EduiKqCzJMWbGw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3TzsYAToEeaPCaDp9Z2FXw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3TzsYQToEeaPCaDp9Z2FXw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_Gx8MgLX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3T2IoAToEeaPCaDp9Z2FXw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3T2IoQToEeaPCaDp9Z2FXw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_fSw28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3T2IogToEeaPCaDp9Z2FXw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3T2IowToEeaPCaDp9Z2FXw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_rpx28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3T2vsAToEeaPCaDp9Z2FXw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3T2vsQToEeaPCaDp9Z2FXw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//constraints"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_5WYJ0LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3T2vsgToEeaPCaDp9Z2FXw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3T2vswToEeaPCaDp9Z2FXw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_C2zXMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3T2vtAToEeaPCaDp9Z2FXw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3T3WwAToEeaPCaDp9Z2FXw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_NxdG4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3T3WwQToEeaPCaDp9Z2FXw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3T3WwgToEeaPCaDp9Z2FXw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_OOJC4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3T3WwwToEeaPCaDp9Z2FXw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3T3WxAToEeaPCaDp9Z2FXw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//interactions"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_meOioLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3T390AToEeaPCaDp9Z2FXw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3T390QToEeaPCaDp9Z2FXw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//statemachines"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_nAF5kLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3T390gToEeaPCaDp9Z2FXw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3T390wToEeaPCaDp9Z2FXw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//usecases"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_neZmMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+  </uml:Model>
+  <Blocks:Block xmi:id="_6NfdAATtEeaPCaDp9Z2FXw" base_Class="_6NeO4ATtEeaPCaDp9Z2FXw"/>
+  <Blocks:Block xmi:id="_Cklq0ATuEeaPCaDp9Z2FXw" base_Class="_CklDwATuEeaPCaDp9Z2FXw"/>
+  <Blocks:Block xmi:id="_wcvpwATvEeaPCaDp9Z2FXw" base_Class="_wcvCsATvEeaPCaDp9Z2FXw"/>
+  <Blocks:Block xmi:id="_VQZ-0ATwEeaPCaDp9Z2FXw" base_Class="_VQZXwATwEeaPCaDp9Z2FXw"/>
+  <Blocks:Block xmi:id="_k9Xm8ATwEeaPCaDp9Z2FXw" base_Class="_k9W_4ATwEeaPCaDp9Z2FXw"/>
+  <Blocks:Block xmi:id="_xbYm0ATwEeaPCaDp9Z2FXw" base_Class="_xbX_wATwEeaPCaDp9Z2FXw"/>
+  <Blocks:Block xmi:id="_z7S-0ATwEeaPCaDp9Z2FXw" base_Class="_z7SXwATwEeaPCaDp9Z2FXw"/>
+  <PortAndFlows:FlowPort xmi:id="_7x2rYATwEeaPCaDp9Z2FXw" base_Port="_7xna0ATwEeaPCaDp9Z2FXw" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_R4VaUATxEeaPCaDp9Z2FXw" base_Port="_R4UzQATxEeaPCaDp9Z2FXw" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_r6EBYATyEeaPCaDp9Z2FXw" base_Port="_r6DaUATyEeaPCaDp9Z2FXw" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_sxrl4ATyEeaPCaDp9Z2FXw" base_Port="_sxpwsATyEeaPCaDp9Z2FXw" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_uLFBwATyEeaPCaDp9Z2FXw" base_Port="_uLDMkATyEeaPCaDp9Z2FXw" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_uylGoATyEeaPCaDp9Z2FXw" base_Port="_uyj4gATyEeaPCaDp9Z2FXw"/>
+  <PortAndFlows:FlowPort xmi:id="__zgRAATyEeaPCaDp9Z2FXw" base_Port="__zfC4ATyEeaPCaDp9Z2FXw"/>
+  <PortAndFlows:FlowPort xmi:id="_D3XvEATzEeaPCaDp9Z2FXw" base_Port="_D3XIAATzEeaPCaDp9Z2FXw" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_G4ZQEATzEeaPCaDp9Z2FXw" base_Port="_G4YB8ATzEeaPCaDp9Z2FXw" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_IvlbMATzEeaPCaDp9Z2FXw" base_Port="_IvkNEATzEeaPCaDp9Z2FXw" direction="in"/>
+</xmi:XMI>
