@@ -1,659 +1,886 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_66uWcATtEeaPCaDp9Z2FXw" type="InternalBlock" name="Block Drone" measurementUnit="Pixel">
-  <children xmi:type="notation:Shape" xmi:id="_66uWcwTtEeaPCaDp9Z2FXw" type="shape_sysml_block_as_composite">
-    <children xmi:type="notation:DecorationNode" xmi:id="_66u9gATtEeaPCaDp9Z2FXw" type="label_sysml_block_name"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_66u9gQTtEeaPCaDp9Z2FXw" type="compartment_sysml_structure">
-      <children xmi:type="notation:Shape" xmi:id="_CksYgATuEeaPCaDp9Z2FXw" type="shape_sysml_blockproperty_as_composite">
-        <children xmi:type="notation:DecorationNode" xmi:id="_CksYggTuEeaPCaDp9Z2FXw" type="label_uml_property_label"/>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_CksYgwTuEeaPCaDp9Z2FXw" type="compartment_sysml_blockproperty_structure">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_CksYhATuEeaPCaDp9Z2FXw"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_Ck2JgATuEeaPCaDp9Z2FXw" type="compartment_shape_display">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_Ck2JgQTuEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ck2JggTuEeaPCaDp9Z2FXw"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_7x7j4ATwEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="_7x8K8ATwEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_I8bPQATxEeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>name</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_7x8K8QTwEeaPCaDp9Z2FXw" x="30"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_66uWcATtEeaPCaDp9Z2FXw" type="InternalBlock" name="Block Drone" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_66uWcwTtEeaPCaDp9Z2FXw" type="shape_sysml_block_as_composite">
+      <children xmi:type="notation:DecorationNode" xmi:id="_66u9gATtEeaPCaDp9Z2FXw" type="label_sysml_block_name"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_66u9gQTtEeaPCaDp9Z2FXw" type="compartment_sysml_structure">
+        <children xmi:type="notation:Shape" xmi:id="_CksYgATuEeaPCaDp9Z2FXw" type="shape_sysml_blockproperty_as_composite">
+          <children xmi:type="notation:DecorationNode" xmi:id="_CksYggTuEeaPCaDp9Z2FXw" type="label_uml_property_label"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_CksYgwTuEeaPCaDp9Z2FXw" type="compartment_sysml_blockproperty_structure">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_CksYhATuEeaPCaDp9Z2FXw"/>
           </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_7x8yAATwEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_7x8yAQTwEeaPCaDp9Z2FXw" x="30" y="-20"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_Ck2JgATuEeaPCaDp9Z2FXw" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_Ck2JgQTuEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ck2JggTuEeaPCaDp9Z2FXw"/>
           </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#_7xna0ATwEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7x7j4QTwEeaPCaDp9Z2FXw" x="-10" y="59" width="20" height="20"/>
+          <children xmi:type="notation:Shape" xmi:id="_7x7j4ATwEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="_7x8K8ATwEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_I8bPQATxEeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>name</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_7x8K8QTwEeaPCaDp9Z2FXw" x="30"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_7x8yAATwEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_7x8yAQTwEeaPCaDp9Z2FXw" x="30" y="-20"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#_7xna0ATwEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7x7j4QTwEeaPCaDp9Z2FXw" x="-10" y="59" width="20" height="20"/>
+          </children>
+          <element xmi:type="uml:Property" href="Drone%20Frame.uml#_A30nAATuEeaPCaDp9Z2FXw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CksYgQTuEeaPCaDp9Z2FXw" x="750" y="3" width="131" height="148"/>
         </children>
-        <element xmi:type="uml:Property" href="Drone%20Frame.uml#_A30nAATuEeaPCaDp9Z2FXw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CksYgQTuEeaPCaDp9Z2FXw" x="738" y="11" width="131" height="148"/>
+        <children xmi:type="notation:Shape" xmi:id="_wc0iQATvEeaPCaDp9Z2FXw" type="shape_sysml_blockproperty_as_composite">
+          <children xmi:type="notation:DecorationNode" xmi:id="_wc1JUATvEeaPCaDp9Z2FXw" type="label_uml_property_label"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_wc1JUQTvEeaPCaDp9Z2FXw" type="compartment_sysml_blockproperty_structure">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_wc1JUgTvEeaPCaDp9Z2FXw"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_wc7P8ATvEeaPCaDp9Z2FXw" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_wc7P8QTvEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wc7P8gTvEeaPCaDp9Z2FXw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_quVqkATxEeaPCaDp9Z2FXw" type="shape_uml_port_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="_quVqkgTxEeaPCaDp9Z2FXw" type="affixedlabel_uml_port_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_zDxrgATxEeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>name</stringListValue>
+                <stringListValue>undefinedType</stringListValue>
+                <stringListValue>multiplicity</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_quVqkwTxEeaPCaDp9Z2FXw" x="30"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_quWRoATxEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_quWRoQTxEeaPCaDp9Z2FXw" x="30" y="-20"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#_quSnQATxEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_quVqkQTxEeaPCaDp9Z2FXw" x="-10" y="60" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_HjWHAATyEeaPCaDp9Z2FXw" type="shape_uml_port_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="_HjWuEATyEeaPCaDp9Z2FXw" type="affixedlabel_uml_port_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_LDraMATyEeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>name</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_HjWuEQTyEeaPCaDp9Z2FXw" x="30"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_HjXVIATyEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_HjXVIQTyEeaPCaDp9Z2FXw" x="30" y="-20"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#_HjTDsATyEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HjWHAQTyEeaPCaDp9Z2FXw" x="-10" y="107" width="20" height="20"/>
+          </children>
+          <element xmi:type="uml:Property" href="Drone%20Frame.uml#_vmMcQATvEeaPCaDp9Z2FXw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wc0iQQTvEeaPCaDp9Z2FXw" x="720" y="241" width="169" height="148"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_VQihsATwEeaPCaDp9Z2FXw" type="shape_sysml_blockproperty_as_composite">
+          <children xmi:type="notation:DecorationNode" xmi:id="_VQihsgTwEeaPCaDp9Z2FXw" type="label_uml_property_label"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_VQihswTwEeaPCaDp9Z2FXw" type="compartment_sysml_blockproperty_structure">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_VQihtATwEeaPCaDp9Z2FXw"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_VQoBQATwEeaPCaDp9Z2FXw" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_VQoBQQTwEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VQoBQgTwEeaPCaDp9Z2FXw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_r6FPgATyEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="_r6FPggTyEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_Pb_MUAT0EeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>undefinedType</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_r6FPgwTyEeaPCaDp9Z2FXw" x="-15" y="2"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_r6FPhATyEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_r6FPhQTyEeaPCaDp9Z2FXw" x="30" y="-20"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#_r6DaUATyEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r6FPgQTyEeaPCaDp9Z2FXw" x="190" y="50" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_sxs0AATyEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="_sxtbEATyEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_UnXsEAT0EeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>undefinedType</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_sxtbEQTyEeaPCaDp9Z2FXw" x="-29" y="1"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_sxtbEgTyEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_sxtbEwTyEeaPCaDp9Z2FXw" x="30" y="-20"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#_sxpwsATyEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sxs0AQTyEeaPCaDp9Z2FXw" x="190" y="84" width="20" height="20"/>
+          </children>
+          <element xmi:type="uml:Property" href="Drone%20Frame.uml#_VDngAATwEeaPCaDp9Z2FXw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VQihsQTwEeaPCaDp9Z2FXw" x="25" y="353" width="200" height="120"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_k9gw4ATwEeaPCaDp9Z2FXw" type="shape_sysml_blockproperty_as_composite">
+          <children xmi:type="notation:DecorationNode" xmi:id="_k9hX8ATwEeaPCaDp9Z2FXw" type="label_uml_property_label"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_k9hX8QTwEeaPCaDp9Z2FXw" type="compartment_sysml_blockproperty_structure">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_k9hX8gTwEeaPCaDp9Z2FXw"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_k9oFoATwEeaPCaDp9Z2FXw" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_k9oFoQTwEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k9oFogTwEeaPCaDp9Z2FXw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_7DXYQATxEeaPCaDp9Z2FXw" type="shape_uml_port_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="_7DX_UATxEeaPCaDp9Z2FXw" type="affixedlabel_uml_port_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_F-7t8ATyEeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>undefinedType</stringListValue>
+                <stringListValue>name</stringListValue>
+                <stringListValue>multiplicity</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_7DX_UQTxEeaPCaDp9Z2FXw" x="30"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_7DYmYATxEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_7DYmYQTxEeaPCaDp9Z2FXw" x="30" y="-20"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#_7DWKIATxEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7DXYQQTxEeaPCaDp9Z2FXw" x="88" y="-10" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_MOx7YATyEeaPCaDp9Z2FXw" type="shape_uml_port_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="_MOx7YgTyEeaPCaDp9Z2FXw" type="affixedlabel_uml_port_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_cTFFcATyEeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>name</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_MOx7YwTyEeaPCaDp9Z2FXw" x="30"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_MOx7ZATyEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_MOx7ZQTyEeaPCaDp9Z2FXw" x="30" y="-20"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#_MOwtQATyEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MOx7YQTyEeaPCaDp9Z2FXw" x="190" y="57" width="20" height="20"/>
+          </children>
+          <element xmi:type="uml:Property" href="Drone%20Frame.uml#_jDi-kATwEeaPCaDp9Z2FXw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k9gw4QTwEeaPCaDp9Z2FXw" x="364" y="484" width="200" height="100"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_xbjl8ATwEeaPCaDp9Z2FXw" type="shape_sysml_blockproperty_as_composite">
+          <children xmi:type="notation:DecorationNode" xmi:id="_xbkNAATwEeaPCaDp9Z2FXw" type="label_uml_property_label"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_xbkNAQTwEeaPCaDp9Z2FXw" type="compartment_sysml_blockproperty_structure">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_xbkNAgTwEeaPCaDp9Z2FXw"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_xboecATwEeaPCaDp9Z2FXw" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_xboecQTwEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xboecgTwEeaPCaDp9Z2FXw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_R4WocATxEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="_R4WocgTxEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_WkwtMATxEeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>name</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_R4WocwTxEeaPCaDp9Z2FXw" x="30"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_R4WodATxEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_R4WodQTxEeaPCaDp9Z2FXw" x="30" y="-20"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#_R4UzQATxEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R4WocQTxEeaPCaDp9Z2FXw" x="190" y="53" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_lAJ_wATxEeaPCaDp9Z2FXw" type="shape_uml_port_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="_lAJ_wgTxEeaPCaDp9Z2FXw" type="affixedlabel_uml_port_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_oY9HkATxEeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>undefinedType</stringListValue>
+                <stringListValue>multiplicity</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_lAJ_wwTxEeaPCaDp9Z2FXw" x="30"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_lAJ_xATxEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_lAJ_xQTxEeaPCaDp9Z2FXw" x="30" y="-20"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#_lAGVYATxEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lAJ_wQTxEeaPCaDp9Z2FXw" x="176" y="171" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_3oMR4ATxEeaPCaDp9Z2FXw" type="shape_uml_port_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="_3oM48ATxEeaPCaDp9Z2FXw" type="affixedlabel_uml_port_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_AoYgAATyEeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>undefinedType</stringListValue>
+                <stringListValue>multiplicity</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3oM48QTxEeaPCaDp9Z2FXw" x="30"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_3oM48gTxEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3oM48wTxEeaPCaDp9Z2FXw" x="30" y="-20"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#_3oLq0ATxEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3oMR4QTxEeaPCaDp9Z2FXw" x="92" y="171" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="__zitQATyEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="__zjUUATyEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_c2iiYATzEeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>name</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="__zjUUQTyEeaPCaDp9Z2FXw" x="30"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="__zj7YATyEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="__zj7YQTyEeaPCaDp9Z2FXw" x="30" y="-20"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#__zfC4ATyEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__zitQQTyEeaPCaDp9Z2FXw" x="-10" y="93" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_D3YWIATzEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="_D3YWIgTzEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_K3-EAATzEeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>name</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_D3YWIwTzEeaPCaDp9Z2FXw" x="30"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_D3Y9MATzEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_D3Y9MQTzEeaPCaDp9Z2FXw" x="30" y="-20"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#_D3XIAATzEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D3YWIQTzEeaPCaDp9Z2FXw" x="-10" y="59" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_G4bFQATzEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="_G4bFQgTzEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_HdGDIAT0EeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>undefinedType</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_G4bFQwTzEeaPCaDp9Z2FXw" x="30"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_G4bFRATzEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_G4bFRQTzEeaPCaDp9Z2FXw" x="30" y="-20"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#_G4YB8ATzEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G4bFQQTzEeaPCaDp9Z2FXw" x="16" y="171" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_IvmpUATzEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="_IvmpUgTzEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_LT-OEAT0EeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>undefinedType</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_IvmpUwTzEeaPCaDp9Z2FXw" x="30"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_IvmpVATzEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_IvmpVQTzEeaPCaDp9Z2FXw" x="30" y="-20"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#_IvkNEATzEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IvmpUQTzEeaPCaDp9Z2FXw" x="44" y="171" width="20" height="20"/>
+          </children>
+          <element xmi:type="uml:Property" href="Drone%20Frame.uml#_xPVu4ATwEeaPCaDp9Z2FXw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xbjl8QTwEeaPCaDp9Z2FXw" x="365" y="4" width="200" height="181"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_z7fzIATwEeaPCaDp9Z2FXw" type="shape_sysml_blockproperty_as_composite">
+          <children xmi:type="notation:DecorationNode" xmi:id="_z7gaMATwEeaPCaDp9Z2FXw" type="label_uml_property_label"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_z7gaMQTwEeaPCaDp9Z2FXw" type="compartment_sysml_blockproperty_structure">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_z7gaMgTwEeaPCaDp9Z2FXw"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_z7lSsATwEeaPCaDp9Z2FXw" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_z7lSsQTwEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z7lSsgTwEeaPCaDp9Z2FXw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_uLGP4ATyEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="_uLGP4gTyEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_eAHZkATzEeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>name</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_uLGP4wTyEeaPCaDp9Z2FXw" x="17" y="-5"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_uLGP5ATyEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_uLGP5QTyEeaPCaDp9Z2FXw" x="30" y="-20"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#_uLDMkATyEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLGP4QTyEeaPCaDp9Z2FXw" x="190" y="45" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_uymUwATyEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
+            <children xmi:type="notation:DecorationNode" xmi:id="_uymUwgTyEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_owGxYATzEeaPCaDp9Z2FXw" name="maskLabel">
+                <stringListValue>name</stringListValue>
+              </styles>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_uymUwwTyEeaPCaDp9Z2FXw" x="30"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_uymUxATyEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_uymUxQTyEeaPCaDp9Z2FXw" x="7" y="15"/>
+            </children>
+            <element xmi:type="uml:Port" href="Drone%20Frame.uml#_uyj4gATyEeaPCaDp9Z2FXw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uymUwQTyEeaPCaDp9Z2FXw" x="190" y="83" width="20" height="20"/>
+          </children>
+          <element xmi:type="uml:Property" href="Drone%20Frame.uml#_zvkP8ATwEeaPCaDp9Z2FXw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z7fzIQTwEeaPCaDp9Z2FXw" x="7" y="24" width="200" height="122"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7y7CYATwEeaPCaDp9Z2FXw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_7y7CYQTwEeaPCaDp9Z2FXw" showTitle="true"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7y7CYwTwEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_7xna0ATwEeaPCaDp9Z2FXw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7y7CYgTwEeaPCaDp9Z2FXw" x="190" y="58"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_R4iOoATxEeaPCaDp9Z2FXw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_R4iOoQTxEeaPCaDp9Z2FXw" showTitle="true"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_R4iOowTxEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_R4UzQATxEeaPCaDp9Z2FXw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R4iOogTxEeaPCaDp9Z2FXw" x="390" y="53"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_r6QOpQTyEeaPCaDp9Z2FXw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_r6QOpgTyEeaPCaDp9Z2FXw" showTitle="true"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_r6QOqATyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_r6DaUATyEeaPCaDp9Z2FXw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r6QOpwTyEeaPCaDp9Z2FXw" x="390" y="50"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_sx3zLQTyEeaPCaDp9Z2FXw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_sx3zLgTyEeaPCaDp9Z2FXw" showTitle="true"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_sx3zMATyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_sxpwsATyEeaPCaDp9Z2FXw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sx3zLwTyEeaPCaDp9Z2FXw" x="390" y="84"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_uLX8sATyEeaPCaDp9Z2FXw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_uLX8sQTyEeaPCaDp9Z2FXw" showTitle="true"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_uLX8swTyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_uLDMkATyEeaPCaDp9Z2FXw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLX8sgTyEeaPCaDp9Z2FXw" x="390" y="45"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__z22VgTyEeaPCaDp9Z2FXw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="__z22VwTyEeaPCaDp9Z2FXw" showTitle="true"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="__z22WQTyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#__zfC4ATyEeaPCaDp9Z2FXw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__z22WATyEeaPCaDp9Z2FXw" x="190" y="60"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_D3r4IATzEeaPCaDp9Z2FXw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_D3r4IQTzEeaPCaDp9Z2FXw" showTitle="true"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_D3r4IwTzEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_D3XIAATzEeaPCaDp9Z2FXw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D3r4IgTzEeaPCaDp9Z2FXw" x="190" y="59"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_G4tZKgTzEeaPCaDp9Z2FXw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_G4tZKwTzEeaPCaDp9Z2FXw" showTitle="true"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_G4tZLQTzEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_G4YB8ATzEeaPCaDp9Z2FXw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G4tZLATzEeaPCaDp9Z2FXw" x="190" y="130"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Iv6LUATzEeaPCaDp9Z2FXw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_Iv6LUQTzEeaPCaDp9Z2FXw" showTitle="true"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Iv6LUwTzEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_IvkNEATzEeaPCaDp9Z2FXw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Iv6LUgTzEeaPCaDp9Z2FXw" x="244" y="130"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_TgL4oCkyEeaD69fa8ospIA" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_TgL4oSkyEeaD69fa8ospIA"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_TgMfsCkyEeaD69fa8ospIA" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_uyj4gATyEeaPCaDp9Z2FXw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TgL4oikyEeaD69fa8ospIA" x="390" y="83"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_QcV3sCkzEeaD69fa8ospIA" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_QcV3sSkzEeaD69fa8ospIA"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_QcV3sykzEeaD69fa8ospIA" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_uyj4gATyEeaPCaDp9Z2FXw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QcV3sikzEeaD69fa8ospIA" x="390" y="83"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_gnG2ICkzEeaD69fa8ospIA" type="3097">
+          <children xmi:type="notation:DecorationNode" xmi:id="_gnIEQCkzEeaD69fa8ospIA" type="5150"/>
+          <element xmi:type="uml:Comment" href="Drone%20Frame.uml#_gmBRACkzEeaD69fa8ospIA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gnG2ISkzEeaD69fa8ospIA" x="643" y="184" height="28"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7jQTgCkzEeaD69fa8ospIA" type="3097">
+          <children xmi:type="notation:DecorationNode" xmi:id="_7jQ6kCkzEeaD69fa8ospIA" type="5150"/>
+          <element xmi:type="uml:Comment" href="Drone%20Frame.uml#_7iI5MCkzEeaD69fa8ospIA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7jQTgSkzEeaD69fa8ospIA" x="677" y="14" width="41" height="28"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ckjyUDIpEeaU5IHEmk0s3Q" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_ckjyUTIpEeaU5IHEmk0s3Q"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_cklngDIpEeaU5IHEmk0s3Q" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_uyj4gATyEeaPCaDp9Z2FXw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ckjyUjIpEeaU5IHEmk0s3Q" x="390" y="83"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_66u9ggTtEeaPCaDp9Z2FXw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_wc0iQATvEeaPCaDp9Z2FXw" type="shape_sysml_blockproperty_as_composite">
-        <children xmi:type="notation:DecorationNode" xmi:id="_wc1JUATvEeaPCaDp9Z2FXw" type="label_uml_property_label"/>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_wc1JUQTvEeaPCaDp9Z2FXw" type="compartment_sysml_blockproperty_structure">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_wc1JUgTvEeaPCaDp9Z2FXw"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_wc7P8ATvEeaPCaDp9Z2FXw" type="compartment_shape_display">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_wc7P8QTvEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wc7P8gTvEeaPCaDp9Z2FXw"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_quVqkATxEeaPCaDp9Z2FXw" type="shape_uml_port_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="_quVqkgTxEeaPCaDp9Z2FXw" type="affixedlabel_uml_port_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_zDxrgATxEeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>name</stringListValue>
-              <stringListValue>undefinedType</stringListValue>
-              <stringListValue>multiplicity</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_quVqkwTxEeaPCaDp9Z2FXw" x="30"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_quWRoATxEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_quWRoQTxEeaPCaDp9Z2FXw" x="30" y="-20"/>
-          </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#_quSnQATxEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_quVqkQTxEeaPCaDp9Z2FXw" x="-10" y="60" width="20" height="20"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_HjWHAATyEeaPCaDp9Z2FXw" type="shape_uml_port_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="_HjWuEATyEeaPCaDp9Z2FXw" type="affixedlabel_uml_port_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_LDraMATyEeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>name</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_HjWuEQTyEeaPCaDp9Z2FXw" x="30"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_HjXVIATyEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_HjXVIQTyEeaPCaDp9Z2FXw" x="30" y="-20"/>
-          </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#_HjTDsATyEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HjWHAQTyEeaPCaDp9Z2FXw" x="-10" y="107" width="20" height="20"/>
-        </children>
-        <element xmi:type="uml:Property" href="Drone%20Frame.uml#_vmMcQATvEeaPCaDp9Z2FXw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wc0iQQTvEeaPCaDp9Z2FXw" x="720" y="241" width="128" height="148"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_VQihsATwEeaPCaDp9Z2FXw" type="shape_sysml_blockproperty_as_composite">
-        <children xmi:type="notation:DecorationNode" xmi:id="_VQihsgTwEeaPCaDp9Z2FXw" type="label_uml_property_label"/>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_VQihswTwEeaPCaDp9Z2FXw" type="compartment_sysml_blockproperty_structure">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_VQihtATwEeaPCaDp9Z2FXw"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_VQoBQATwEeaPCaDp9Z2FXw" type="compartment_shape_display">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_VQoBQQTwEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VQoBQgTwEeaPCaDp9Z2FXw"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_r6FPgATyEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="_r6FPggTyEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_Pb_MUAT0EeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>undefinedType</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_r6FPgwTyEeaPCaDp9Z2FXw" x="-15" y="2"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_r6FPhATyEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_r6FPhQTyEeaPCaDp9Z2FXw" x="30" y="-20"/>
-          </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#_r6DaUATyEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r6FPgQTyEeaPCaDp9Z2FXw" x="190" y="50" width="20" height="20"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_sxs0AATyEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="_sxtbEATyEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_UnXsEAT0EeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>undefinedType</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_sxtbEQTyEeaPCaDp9Z2FXw" x="-29" y="1"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_sxtbEgTyEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_sxtbEwTyEeaPCaDp9Z2FXw" x="30" y="-20"/>
-          </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#_sxpwsATyEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sxs0AQTyEeaPCaDp9Z2FXw" x="190" y="84" width="20" height="20"/>
-        </children>
-        <element xmi:type="uml:Property" href="Drone%20Frame.uml#_VDngAATwEeaPCaDp9Z2FXw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VQihsQTwEeaPCaDp9Z2FXw" x="25" y="353" width="200" height="120"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_k9gw4ATwEeaPCaDp9Z2FXw" type="shape_sysml_blockproperty_as_composite">
-        <children xmi:type="notation:DecorationNode" xmi:id="_k9hX8ATwEeaPCaDp9Z2FXw" type="label_uml_property_label"/>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_k9hX8QTwEeaPCaDp9Z2FXw" type="compartment_sysml_blockproperty_structure">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_k9hX8gTwEeaPCaDp9Z2FXw"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_k9oFoATwEeaPCaDp9Z2FXw" type="compartment_shape_display">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_k9oFoQTwEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k9oFogTwEeaPCaDp9Z2FXw"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_7DXYQATxEeaPCaDp9Z2FXw" type="shape_uml_port_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="_7DX_UATxEeaPCaDp9Z2FXw" type="affixedlabel_uml_port_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_F-7t8ATyEeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>undefinedType</stringListValue>
-              <stringListValue>name</stringListValue>
-              <stringListValue>multiplicity</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_7DX_UQTxEeaPCaDp9Z2FXw" x="30"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_7DYmYATxEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_7DYmYQTxEeaPCaDp9Z2FXw" x="30" y="-20"/>
-          </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#_7DWKIATxEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7DXYQQTxEeaPCaDp9Z2FXw" x="88" y="-10" width="20" height="20"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_MOx7YATyEeaPCaDp9Z2FXw" type="shape_uml_port_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="_MOx7YgTyEeaPCaDp9Z2FXw" type="affixedlabel_uml_port_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_cTFFcATyEeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>name</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_MOx7YwTyEeaPCaDp9Z2FXw" x="30"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_MOx7ZATyEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_MOx7ZQTyEeaPCaDp9Z2FXw" x="30" y="-20"/>
-          </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#_MOwtQATyEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MOx7YQTyEeaPCaDp9Z2FXw" x="190" y="57" width="20" height="20"/>
-        </children>
-        <element xmi:type="uml:Property" href="Drone%20Frame.uml#_jDi-kATwEeaPCaDp9Z2FXw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k9gw4QTwEeaPCaDp9Z2FXw" x="364" y="484" width="200" height="100"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_xbjl8ATwEeaPCaDp9Z2FXw" type="shape_sysml_blockproperty_as_composite">
-        <children xmi:type="notation:DecorationNode" xmi:id="_xbkNAATwEeaPCaDp9Z2FXw" type="label_uml_property_label"/>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_xbkNAQTwEeaPCaDp9Z2FXw" type="compartment_sysml_blockproperty_structure">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_xbkNAgTwEeaPCaDp9Z2FXw"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_xboecATwEeaPCaDp9Z2FXw" type="compartment_shape_display">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_xboecQTwEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xboecgTwEeaPCaDp9Z2FXw"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_R4WocATxEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="_R4WocgTxEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_WkwtMATxEeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>name</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_R4WocwTxEeaPCaDp9Z2FXw" x="30"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_R4WodATxEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_R4WodQTxEeaPCaDp9Z2FXw" x="30" y="-20"/>
-          </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#_R4UzQATxEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R4WocQTxEeaPCaDp9Z2FXw" x="190" y="53" width="20" height="20"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_lAJ_wATxEeaPCaDp9Z2FXw" type="shape_uml_port_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="_lAJ_wgTxEeaPCaDp9Z2FXw" type="affixedlabel_uml_port_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_oY9HkATxEeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>undefinedType</stringListValue>
-              <stringListValue>multiplicity</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_lAJ_wwTxEeaPCaDp9Z2FXw" x="30"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_lAJ_xATxEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_lAJ_xQTxEeaPCaDp9Z2FXw" x="30" y="-20"/>
-          </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#_lAGVYATxEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lAJ_wQTxEeaPCaDp9Z2FXw" x="176" y="171" width="20" height="20"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_3oMR4ATxEeaPCaDp9Z2FXw" type="shape_uml_port_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="_3oM48ATxEeaPCaDp9Z2FXw" type="affixedlabel_uml_port_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_AoYgAATyEeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>undefinedType</stringListValue>
-              <stringListValue>multiplicity</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_3oM48QTxEeaPCaDp9Z2FXw" x="30"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_3oM48gTxEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_3oM48wTxEeaPCaDp9Z2FXw" x="30" y="-20"/>
-          </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#_3oLq0ATxEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3oMR4QTxEeaPCaDp9Z2FXw" x="92" y="171" width="20" height="20"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="__zitQATyEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="__zjUUATyEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_c2iiYATzEeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>name</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="__zjUUQTyEeaPCaDp9Z2FXw" x="30"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="__zj7YATyEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="__zj7YQTyEeaPCaDp9Z2FXw" x="30" y="-20"/>
-          </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#__zfC4ATyEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__zitQQTyEeaPCaDp9Z2FXw" x="-10" y="93" width="20" height="20"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_D3YWIATzEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="_D3YWIgTzEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_K3-EAATzEeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>name</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_D3YWIwTzEeaPCaDp9Z2FXw" x="30"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_D3Y9MATzEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_D3Y9MQTzEeaPCaDp9Z2FXw" x="30" y="-20"/>
-          </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#_D3XIAATzEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D3YWIQTzEeaPCaDp9Z2FXw" x="-10" y="59" width="20" height="20"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_G4bFQATzEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="_G4bFQgTzEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_HdGDIAT0EeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>undefinedType</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_G4bFQwTzEeaPCaDp9Z2FXw" x="30"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_G4bFRATzEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_G4bFRQTzEeaPCaDp9Z2FXw" x="30" y="-20"/>
-          </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#_G4YB8ATzEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G4bFQQTzEeaPCaDp9Z2FXw" x="16" y="171" width="20" height="20"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_IvmpUATzEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="_IvmpUgTzEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_LT-OEAT0EeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>undefinedType</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_IvmpUwTzEeaPCaDp9Z2FXw" x="30"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_IvmpVATzEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_IvmpVQTzEeaPCaDp9Z2FXw" x="30" y="-20"/>
-          </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#_IvkNEATzEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IvmpUQTzEeaPCaDp9Z2FXw" x="44" y="171" width="20" height="20"/>
-        </children>
-        <element xmi:type="uml:Property" href="Drone%20Frame.uml#_xPVu4ATwEeaPCaDp9Z2FXw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xbjl8QTwEeaPCaDp9Z2FXw" x="365" y="4" width="200" height="181"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_z7fzIATwEeaPCaDp9Z2FXw" type="shape_sysml_blockproperty_as_composite">
-        <children xmi:type="notation:DecorationNode" xmi:id="_z7gaMATwEeaPCaDp9Z2FXw" type="label_uml_property_label"/>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_z7gaMQTwEeaPCaDp9Z2FXw" type="compartment_sysml_blockproperty_structure">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_z7gaMgTwEeaPCaDp9Z2FXw"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_z7lSsATwEeaPCaDp9Z2FXw" type="compartment_shape_display">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_z7lSsQTwEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z7lSsgTwEeaPCaDp9Z2FXw"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_uLGP4ATyEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="_uLGP4gTyEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_eAHZkATzEeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>name</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_uLGP4wTyEeaPCaDp9Z2FXw" x="30"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_uLGP5ATyEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_uLGP5QTyEeaPCaDp9Z2FXw" x="30" y="-20"/>
-          </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#_uLDMkATyEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLGP4QTyEeaPCaDp9Z2FXw" x="190" y="45" width="20" height="20"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_uymUwATyEeaPCaDp9Z2FXw" type="shape_sysml_flowport_as_affixed">
-          <children xmi:type="notation:DecorationNode" xmi:id="_uymUwgTyEeaPCaDp9Z2FXw" type="affixedlabel_sysml_flowport_label">
-            <styles xmi:type="notation:StringListValueStyle" xmi:id="_owGxYATzEeaPCaDp9Z2FXw" name="maskLabel">
-              <stringListValue>name</stringListValue>
-            </styles>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_uymUwwTyEeaPCaDp9Z2FXw" x="30"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_uymUxATyEeaPCaDp9Z2FXw" type="affixedlabel_uml_appliedstereotype">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_uymUxQTyEeaPCaDp9Z2FXw" x="30" y="-20"/>
-          </children>
-          <element xmi:type="uml:Port" href="Drone%20Frame.uml#_uyj4gATyEeaPCaDp9Z2FXw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uymUwQTyEeaPCaDp9Z2FXw" x="190" y="83" width="20" height="20"/>
-        </children>
-        <element xmi:type="uml:Property" href="Drone%20Frame.uml#_zvkP8ATwEeaPCaDp9Z2FXw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z7fzIQTwEeaPCaDp9Z2FXw" x="29" y="100" width="200" height="122"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_7y7CYATwEeaPCaDp9Z2FXw" type="StereotypeComment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_7y7CYQTwEeaPCaDp9Z2FXw" showTitle="true"/>
-        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7y7CYwTwEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-          <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_7xna0ATwEeaPCaDp9Z2FXw"/>
-        </styles>
-        <element xsi:nil="true"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7y7CYgTwEeaPCaDp9Z2FXw" x="190" y="58"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_R4iOoATxEeaPCaDp9Z2FXw" type="StereotypeComment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_R4iOoQTxEeaPCaDp9Z2FXw" showTitle="true"/>
-        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_R4iOowTxEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-          <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_R4UzQATxEeaPCaDp9Z2FXw"/>
-        </styles>
-        <element xsi:nil="true"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R4iOogTxEeaPCaDp9Z2FXw" x="390" y="53"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_r6QOpQTyEeaPCaDp9Z2FXw" type="StereotypeComment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_r6QOpgTyEeaPCaDp9Z2FXw" showTitle="true"/>
-        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_r6QOqATyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-          <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_r6DaUATyEeaPCaDp9Z2FXw"/>
-        </styles>
-        <element xsi:nil="true"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r6QOpwTyEeaPCaDp9Z2FXw" x="390" y="50"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_sx3zLQTyEeaPCaDp9Z2FXw" type="StereotypeComment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_sx3zLgTyEeaPCaDp9Z2FXw" showTitle="true"/>
-        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_sx3zMATyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-          <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_sxpwsATyEeaPCaDp9Z2FXw"/>
-        </styles>
-        <element xsi:nil="true"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sx3zLwTyEeaPCaDp9Z2FXw" x="390" y="84"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_uLX8sATyEeaPCaDp9Z2FXw" type="StereotypeComment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_uLX8sQTyEeaPCaDp9Z2FXw" showTitle="true"/>
-        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_uLX8swTyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-          <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_uLDMkATyEeaPCaDp9Z2FXw"/>
-        </styles>
-        <element xsi:nil="true"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLX8sgTyEeaPCaDp9Z2FXw" x="390" y="45"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="__z22VgTyEeaPCaDp9Z2FXw" type="StereotypeComment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="__z22VwTyEeaPCaDp9Z2FXw" showTitle="true"/>
-        <styles xmi:type="notation:EObjectValueStyle" xmi:id="__z22WQTyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-          <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#__zfC4ATyEeaPCaDp9Z2FXw"/>
-        </styles>
-        <element xsi:nil="true"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__z22WATyEeaPCaDp9Z2FXw" x="190" y="60"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_D3r4IATzEeaPCaDp9Z2FXw" type="StereotypeComment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_D3r4IQTzEeaPCaDp9Z2FXw" showTitle="true"/>
-        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_D3r4IwTzEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-          <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_D3XIAATzEeaPCaDp9Z2FXw"/>
-        </styles>
-        <element xsi:nil="true"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D3r4IgTzEeaPCaDp9Z2FXw" x="190" y="59"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_G4tZKgTzEeaPCaDp9Z2FXw" type="StereotypeComment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_G4tZKwTzEeaPCaDp9Z2FXw" showTitle="true"/>
-        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_G4tZLQTzEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-          <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_G4YB8ATzEeaPCaDp9Z2FXw"/>
-        </styles>
-        <element xsi:nil="true"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G4tZLATzEeaPCaDp9Z2FXw" x="190" y="130"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_Iv6LUATzEeaPCaDp9Z2FXw" type="StereotypeComment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_Iv6LUQTzEeaPCaDp9Z2FXw" showTitle="true"/>
-        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Iv6LUwTzEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-          <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_IvkNEATzEeaPCaDp9Z2FXw"/>
-        </styles>
-        <element xsi:nil="true"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Iv6LUgTzEeaPCaDp9Z2FXw" x="244" y="130"/>
-      </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_66u9ggTtEeaPCaDp9Z2FXw"/>
+      <element xmi:type="uml:Class" href="Drone%20Frame.uml#_6NeO4ATtEeaPCaDp9Z2FXw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_66uWdATtEeaPCaDp9Z2FXw" x="34" y="14" width="990" height="694"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_69NCswTtEeaPCaDp9Z2FXw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_69NCtATtEeaPCaDp9Z2FXw" showTitle="true"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_69NpwATtEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="Drone%20Frame.uml#_6NeO4ATtEeaPCaDp9Z2FXw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_69NCtQTtEeaPCaDp9Z2FXw" x="240" y="40"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_66uWcQTtEeaPCaDp9Z2FXw"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_66uWcgTtEeaPCaDp9Z2FXw">
+      <owner xmi:type="uml:Package" href="Drone%20Frame.uml#_Vb7ZsATtEeaPCaDp9Z2FXw"/>
+    </styles>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_68FBUATtEeaPCaDp9Z2FXw" name="diagram_compatibility_version" stringValue="1.1.0"/>
     <element xmi:type="uml:Class" href="Drone%20Frame.uml#_6NeO4ATtEeaPCaDp9Z2FXw"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_66uWdATtEeaPCaDp9Z2FXw" x="40" y="40" width="990" height="694"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_69NCswTtEeaPCaDp9Z2FXw" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_69NCtATtEeaPCaDp9Z2FXw" showTitle="true"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_69NpwATtEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Class" href="Drone%20Frame.uml#_6NeO4ATtEeaPCaDp9Z2FXw"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_69NCtQTtEeaPCaDp9Z2FXw" x="240" y="40"/>
-  </children>
-  <styles xmi:type="notation:DiagramStyle" xmi:id="_66uWcQTtEeaPCaDp9Z2FXw"/>
-  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_66uWcgTtEeaPCaDp9Z2FXw">
-    <owner xmi:type="uml:Package" href="Drone%20Frame.uml#_Vb7ZsATtEeaPCaDp9Z2FXw"/>
-  </styles>
-  <styles xmi:type="notation:StringValueStyle" xmi:id="_68FBUATtEeaPCaDp9Z2FXw" name="diagram_compatibility_version" stringValue="1.1.0"/>
-  <element xmi:type="uml:Class" href="Drone%20Frame.uml#_6NeO4ATtEeaPCaDp9Z2FXw"/>
-  <edges xmi:type="notation:Connector" xmi:id="_69NpwQTtEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_66uWcwTtEeaPCaDp9Z2FXw" target="_69NCswTtEeaPCaDp9Z2FXw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_69NpwgTtEeaPCaDp9Z2FXw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_69NpxgTtEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Class" href="Drone%20Frame.uml#_6NeO4ATtEeaPCaDp9Z2FXw"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_69NpwwTtEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_69NpxATtEeaPCaDp9Z2FXw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_69NpxQTtEeaPCaDp9Z2FXw"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_7y7CZATwEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_7x7j4ATwEeaPCaDp9Z2FXw" target="_7y7CYATwEeaPCaDp9Z2FXw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_7y7pcATwEeaPCaDp9Z2FXw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7y7pdATwEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_7xna0ATwEeaPCaDp9Z2FXw"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7y7pcQTwEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7y7pcgTwEeaPCaDp9Z2FXw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7y7pcwTwEeaPCaDp9Z2FXw"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_R4iOpATxEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_R4WocATxEeaPCaDp9Z2FXw" target="_R4iOoATxEeaPCaDp9Z2FXw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_R4iOpQTxEeaPCaDp9Z2FXw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_R4iOqQTxEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_R4UzQATxEeaPCaDp9Z2FXw"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_R4iOpgTxEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_R4iOpwTxEeaPCaDp9Z2FXw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_R4iOqATxEeaPCaDp9Z2FXw"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_bhGEUATxEeaPCaDp9Z2FXw" type="link_uml_connector" source="_7x7j4ATwEeaPCaDp9Z2FXw" target="_R4WocATxEeaPCaDp9Z2FXw" routing="Rectilinear">
-    <children xmi:type="notation:DecorationNode" xmi:id="_bhGrYATxEeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_bhGrYQTxEeaPCaDp9Z2FXw" y="-30"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_bhGrYgTxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_bhGrYwTxEeaPCaDp9Z2FXw" y="-10"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_bhGrZATxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_bhGrZQTxEeaPCaDp9Z2FXw" y="10"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_bhGrZgTxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_bhGrZwTxEeaPCaDp9Z2FXw" y="10"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_bhGEUQTxEeaPCaDp9Z2FXw"/>
-    <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_bg6eIATxEeaPCaDp9Z2FXw"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bhGEUgTxEeaPCaDp9Z2FXw" points="[-10, 3, 135, -3]$[-146, -4, -1, -10]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bhhiIATxEeaPCaDp9Z2FXw" id="(0.0,0.5)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bhhiIQTxEeaPCaDp9Z2FXw" id="(1.0,0.3)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_0G7KkATxEeaPCaDp9Z2FXw" type="link_uml_connector" source="_quVqkATxEeaPCaDp9Z2FXw" target="_lAJ_wATxEeaPCaDp9Z2FXw" routing="Rectilinear">
-    <children xmi:type="notation:DecorationNode" xmi:id="_0G7KkwTxEeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_0G7KlATxEeaPCaDp9Z2FXw" y="-30"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_0G7KlQTxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_0G7KlgTxEeaPCaDp9Z2FXw" y="-10"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_0G7KlwTxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_0G7KmATxEeaPCaDp9Z2FXw" y="10"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_0G7KmQTxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_0G7KmgTxEeaPCaDp9Z2FXw" y="10"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_0G7KkQTxEeaPCaDp9Z2FXw"/>
-    <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_0GtvMATxEeaPCaDp9Z2FXw"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0G7KkgTxEeaPCaDp9Z2FXw" points="[-8, -10, 124, 155]$[-133, -175, -1, -10]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0Ha50ATxEeaPCaDp9Z2FXw" id="(0.2,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0Ha50QTxEeaPCaDp9Z2FXw" id="(0.9,1.0)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_-NhnIATxEeaPCaDp9Z2FXw" type="link_uml_connector" source="_7DXYQATxEeaPCaDp9Z2FXw" target="_3oMR4ATxEeaPCaDp9Z2FXw" routing="Rectilinear">
-    <children xmi:type="notation:DecorationNode" xmi:id="_-NhnIwTxEeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_-NhnJATxEeaPCaDp9Z2FXw" y="-30"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_-NhnJQTxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
-      <styles xmi:type="notation:StringListValueStyle" xmi:id="_BdrwUATyEeaPCaDp9Z2FXw" name="maskLabel">
-        <stringListValue>name</stringListValue>
-        <stringListValue>undefinedType</stringListValue>
+    <edges xmi:type="notation:Connector" xmi:id="_69NpwQTtEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_66uWcwTtEeaPCaDp9Z2FXw" target="_69NCswTtEeaPCaDp9Z2FXw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_69NpwgTtEeaPCaDp9Z2FXw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_69NpxgTtEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="Drone%20Frame.uml#_6NeO4ATtEeaPCaDp9Z2FXw"/>
       </styles>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_-NhnJgTxEeaPCaDp9Z2FXw" x="-33" y="46"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_-NhnJwTxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_-NhnKATxEeaPCaDp9Z2FXw" y="10"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_-NiOMATxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_-NiOMQTxEeaPCaDp9Z2FXw" y="10"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_-NhnIQTxEeaPCaDp9Z2FXw"/>
-    <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_-NQhYATxEeaPCaDp9Z2FXw"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-NhnIgTxEeaPCaDp9Z2FXw" points="[-4, 10, 26, 271]$[-27, 10, 3, 271]$[-27, -261, 3, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-OTqQATxEeaPCaDp9Z2FXw" id="(0.2,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-OTqQQTxEeaPCaDp9Z2FXw" id="(0.45,1.0)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_dWdOAATyEeaPCaDp9Z2FXw" type="link_uml_connector" source="_MOx7YATyEeaPCaDp9Z2FXw" target="_HjWHAATyEeaPCaDp9Z2FXw" routing="Rectilinear">
-    <children xmi:type="notation:DecorationNode" xmi:id="_dWdOAwTyEeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_dWdOBATyEeaPCaDp9Z2FXw" y="-30"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_dWdOBQTyEeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
-      <styles xmi:type="notation:StringListValueStyle" xmi:id="_eehCQATyEeaPCaDp9Z2FXw" name="maskLabel">
-        <stringListValue>name</stringListValue>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_69NpwwTtEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_69NpxATtEeaPCaDp9Z2FXw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_69NpxQTtEeaPCaDp9Z2FXw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_7y7CZATwEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_7x7j4ATwEeaPCaDp9Z2FXw" target="_7y7CYATwEeaPCaDp9Z2FXw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_7y7pcATwEeaPCaDp9Z2FXw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7y7pdATwEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_7xna0ATwEeaPCaDp9Z2FXw"/>
       </styles>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_dWdOBgTyEeaPCaDp9Z2FXw" y="-10"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_dWd1EATyEeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_dWd1EQTyEeaPCaDp9Z2FXw" y="10"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_dWd1EgTyEeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_dWd1EwTyEeaPCaDp9Z2FXw" y="10"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_dWdOAQTyEeaPCaDp9Z2FXw"/>
-    <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_dWMvUATyEeaPCaDp9Z2FXw"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dWdOAgTyEeaPCaDp9Z2FXw" points="[10, -7, -87, 52]$[93, -69, -4, -10]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dXK_sATyEeaPCaDp9Z2FXw" id="(1.0,0.15)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dXK_sQTyEeaPCaDp9Z2FXw" id="(0.0,0.55)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_r6QOqQTyEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_r6FPgATyEeaPCaDp9Z2FXw" target="_r6QOpQTyEeaPCaDp9Z2FXw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_r6QOqgTyEeaPCaDp9Z2FXw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_r6QOrgTyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_r6DaUATyEeaPCaDp9Z2FXw"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_r6QOqwTyEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r6QOrATyEeaPCaDp9Z2FXw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r6QOrQTyEeaPCaDp9Z2FXw"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_sx3zMQTyEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_sxs0AATyEeaPCaDp9Z2FXw" target="_sx3zLQTyEeaPCaDp9Z2FXw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_sx3zMgTyEeaPCaDp9Z2FXw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_sx4aMgTyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_sxpwsATyEeaPCaDp9Z2FXw"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sx3zMwTyEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sx4aMATyEeaPCaDp9Z2FXw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sx4aMQTyEeaPCaDp9Z2FXw"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_uLX8tATyEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_uLGP4ATyEeaPCaDp9Z2FXw" target="_uLX8sATyEeaPCaDp9Z2FXw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_uLX8tQTyEeaPCaDp9Z2FXw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_uLX8uQTyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_uLDMkATyEeaPCaDp9Z2FXw"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uLX8tgTyEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uLX8twTyEeaPCaDp9Z2FXw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uLX8uATyEeaPCaDp9Z2FXw"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_uy5PvgTyEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_uymUwATyEeaPCaDp9Z2FXw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_uy5PvwTyEeaPCaDp9Z2FXw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_uy52wATyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_uyj4gATyEeaPCaDp9Z2FXw"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uy5PwATyEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uy5PwQTyEeaPCaDp9Z2FXw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uy5PwgTyEeaPCaDp9Z2FXw"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="__z3dYATyEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="__zitQATyEeaPCaDp9Z2FXw" target="__z22VgTyEeaPCaDp9Z2FXw">
-    <styles xmi:type="notation:FontStyle" xmi:id="__z3dYQTyEeaPCaDp9Z2FXw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="__z3dZQTyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#__zfC4ATyEeaPCaDp9Z2FXw"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__z3dYgTyEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__z3dYwTyEeaPCaDp9Z2FXw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__z3dZATyEeaPCaDp9Z2FXw"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_D3r4JATzEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_D3YWIATzEeaPCaDp9Z2FXw" target="_D3r4IATzEeaPCaDp9Z2FXw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_D3r4JQTzEeaPCaDp9Z2FXw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_D3r4KQTzEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_D3XIAATzEeaPCaDp9Z2FXw"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_D3r4JgTzEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_D3r4JwTzEeaPCaDp9Z2FXw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_D3r4KATzEeaPCaDp9Z2FXw"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_G4tZLgTzEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_G4bFQATzEeaPCaDp9Z2FXw" target="_G4tZKgTzEeaPCaDp9Z2FXw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_G4tZLwTzEeaPCaDp9Z2FXw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_G4tZMwTzEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_G4YB8ATzEeaPCaDp9Z2FXw"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G4tZMATzEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G4tZMQTzEeaPCaDp9Z2FXw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G4tZMgTzEeaPCaDp9Z2FXw"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_Iv6LVATzEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_IvmpUATzEeaPCaDp9Z2FXw" target="_Iv6LUATzEeaPCaDp9Z2FXw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_Iv6LVQTzEeaPCaDp9Z2FXw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Iv6LWQTzEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_IvkNEATzEeaPCaDp9Z2FXw"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Iv6LVgTzEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Iv6LVwTzEeaPCaDp9Z2FXw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Iv6LWATzEeaPCaDp9Z2FXw"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_sFexwATzEeaPCaDp9Z2FXw" type="link_uml_connector" source="_D3YWIATzEeaPCaDp9Z2FXw" target="_uLGP4ATyEeaPCaDp9Z2FXw" routing="Rectilinear">
-    <children xmi:type="notation:DecorationNode" xmi:id="_sFexwwTzEeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_sFexxATzEeaPCaDp9Z2FXw" y="-30"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_sFfY0ATzEeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
-      <styles xmi:type="notation:StringListValueStyle" xmi:id="_v-mYYATzEeaPCaDp9Z2FXw" name="maskLabel"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_sFfY0QTzEeaPCaDp9Z2FXw" y="-10"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_sFfY0gTzEeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_sFfY0wTzEeaPCaDp9Z2FXw" y="10"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_sFfY1ATzEeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_sFfY1QTzEeaPCaDp9Z2FXw" y="10"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_sFexwQTzEeaPCaDp9Z2FXw"/>
-    <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_sFBewATzEeaPCaDp9Z2FXw"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sFexwgTzEeaPCaDp9Z2FXw" points="[-1, 1, 99, -54]$[-99, 53, 1, -2]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sG6VIATzEeaPCaDp9Z2FXw" id="(0.0,0.6833333333333329)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sG6VIQTzEeaPCaDp9Z2FXw" id="(0.6,0.0)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_sqFToATzEeaPCaDp9Z2FXw" type="link_uml_connector" source="__zitQATyEeaPCaDp9Z2FXw" target="_uymUwATyEeaPCaDp9Z2FXw" routing="Rectilinear">
-    <children xmi:type="notation:DecorationNode" xmi:id="_sqFTowTzEeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_sqFTpATzEeaPCaDp9Z2FXw" y="-30"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_sqFTpQTzEeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_sqFTpgTzEeaPCaDp9Z2FXw" y="-10"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_sqFTpwTzEeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_sqFTqATzEeaPCaDp9Z2FXw" y="10"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_sqFTqQTzEeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_sqFTqgTzEeaPCaDp9Z2FXw" y="10"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_sqFToQTzEeaPCaDp9Z2FXw"/>
-    <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_spjvMATzEeaPCaDp9Z2FXw"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sqFTogTzEeaPCaDp9Z2FXw" points="[-3, 2, 95, -63]$[-97, 72, 1, 7]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_srkhYATzEeaPCaDp9Z2FXw" id="(0.0,0.5833333333333328)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_srkhYQTzEeaPCaDp9Z2FXw" id="(1.0,0.15)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_VhJMsAT0EeaPCaDp9Z2FXw" type="link_uml_connector" source="_G4bFQATzEeaPCaDp9Z2FXw" target="_r6FPgATyEeaPCaDp9Z2FXw" routing="Rectilinear">
-    <children xmi:type="notation:DecorationNode" xmi:id="_VhJzwgT0EeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_VhJzwwT0EeaPCaDp9Z2FXw" y="-30"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_VhJzxAT0EeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
-      <styles xmi:type="notation:StringListValueStyle" xmi:id="_ewG2oAT0EeaPCaDp9Z2FXw" name="maskLabel">
-        <stringListValue>undefinedType</stringListValue>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7y7pcQTwEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7y7pcgTwEeaPCaDp9Z2FXw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7y7pcwTwEeaPCaDp9Z2FXw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_R4iOpATxEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_R4WocATxEeaPCaDp9Z2FXw" target="_R4iOoATxEeaPCaDp9Z2FXw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_R4iOpQTxEeaPCaDp9Z2FXw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_R4iOqQTxEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_R4UzQATxEeaPCaDp9Z2FXw"/>
       </styles>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_VhJzxQT0EeaPCaDp9Z2FXw" y="-10"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_VhJzxgT0EeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_VhJzxwT0EeaPCaDp9Z2FXw" y="10"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_VhJzyAT0EeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_VhJzyQT0EeaPCaDp9Z2FXw" y="10"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_VhJzwAT0EeaPCaDp9Z2FXw"/>
-    <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_VgqrkAT0EeaPCaDp9Z2FXw"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VhJzwQT0EeaPCaDp9Z2FXw" points="[-3, 0, 158, -208]$[-3, 220, 158, 12]$[-153, 220, 8, 12]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VioacAT0EeaPCaDp9Z2FXw" id="(0.3666666666666657,1.0166666666666657)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VioacQT0EeaPCaDp9Z2FXw" id="(0.6,0.0)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_WMSbcAT0EeaPCaDp9Z2FXw" type="link_uml_connector" source="_sxs0AATyEeaPCaDp9Z2FXw" target="_IvmpUATzEeaPCaDp9Z2FXw" routing="Rectilinear">
-    <children xmi:type="notation:DecorationNode" xmi:id="_WMTCggT0EeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_WMTCgwT0EeaPCaDp9Z2FXw" y="-30"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_WMTChAT0EeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
-      <styles xmi:type="notation:StringListValueStyle" xmi:id="_gCmZQAT0EeaPCaDp9Z2FXw" name="maskLabel">
-        <stringListValue>type</stringListValue>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_R4iOpgTxEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_R4iOpwTxEeaPCaDp9Z2FXw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_R4iOqATxEeaPCaDp9Z2FXw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_bhGEUATxEeaPCaDp9Z2FXw" type="link_uml_connector" source="_7x7j4ATwEeaPCaDp9Z2FXw" target="_R4WocATxEeaPCaDp9Z2FXw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_bhGrYATxEeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bhGrYQTxEeaPCaDp9Z2FXw" y="-30"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bhGrYgTxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bhGrYwTxEeaPCaDp9Z2FXw" y="-10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bhGrZATxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bhGrZQTxEeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bhGrZgTxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bhGrZwTxEeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_bhGEUQTxEeaPCaDp9Z2FXw"/>
+      <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_bg6eIATxEeaPCaDp9Z2FXw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bhGEUgTxEeaPCaDp9Z2FXw" points="[-10, 3, 135, -3]$[-146, -4, -1, -10]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bhhiIATxEeaPCaDp9Z2FXw" id="(0.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bhhiIQTxEeaPCaDp9Z2FXw" id="(1.0,0.3)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_0G7KkATxEeaPCaDp9Z2FXw" type="link_uml_connector" source="_quVqkATxEeaPCaDp9Z2FXw" target="_lAJ_wATxEeaPCaDp9Z2FXw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_0G7KkwTxEeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0G7KlATxEeaPCaDp9Z2FXw" y="-30"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_0G7KlQTxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0G7KlgTxEeaPCaDp9Z2FXw" y="-10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_0G7KlwTxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0G7KmATxEeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_0G7KmQTxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0G7KmgTxEeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_0G7KkQTxEeaPCaDp9Z2FXw"/>
+      <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_0GtvMATxEeaPCaDp9Z2FXw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0G7KkgTxEeaPCaDp9Z2FXw" points="[-8, -10, 124, 155]$[-133, -175, -1, -10]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0Ha50ATxEeaPCaDp9Z2FXw" id="(0.2,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0Ha50QTxEeaPCaDp9Z2FXw" id="(0.9,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_-NhnIATxEeaPCaDp9Z2FXw" type="link_uml_connector" source="_7DXYQATxEeaPCaDp9Z2FXw" target="_3oMR4ATxEeaPCaDp9Z2FXw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-NhnIwTxEeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-NhnJATxEeaPCaDp9Z2FXw" y="-30"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-NhnJQTxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
+        <styles xmi:type="notation:StringListValueStyle" xmi:id="_BdrwUATyEeaPCaDp9Z2FXw" name="maskLabel">
+          <stringListValue>name</stringListValue>
+          <stringListValue>undefinedType</stringListValue>
+        </styles>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-NhnJgTxEeaPCaDp9Z2FXw" x="-33" y="46"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-NhnJwTxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-NhnKATxEeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-NiOMATxEeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-NiOMQTxEeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_-NhnIQTxEeaPCaDp9Z2FXw"/>
+      <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_-NQhYATxEeaPCaDp9Z2FXw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-NhnIgTxEeaPCaDp9Z2FXw" points="[-4, 10, 26, 271]$[-27, 10, 3, 271]$[-27, -261, 3, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-OTqQATxEeaPCaDp9Z2FXw" id="(0.2,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-OTqQQTxEeaPCaDp9Z2FXw" id="(0.45,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_dWdOAATyEeaPCaDp9Z2FXw" type="link_uml_connector" source="_MOx7YATyEeaPCaDp9Z2FXw" target="_HjWHAATyEeaPCaDp9Z2FXw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_dWdOAwTyEeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dWdOBATyEeaPCaDp9Z2FXw" y="-30"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_dWdOBQTyEeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
+        <styles xmi:type="notation:StringListValueStyle" xmi:id="_eehCQATyEeaPCaDp9Z2FXw" name="maskLabel">
+          <stringListValue>name</stringListValue>
+        </styles>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dWdOBgTyEeaPCaDp9Z2FXw" y="-10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_dWd1EATyEeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dWd1EQTyEeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_dWd1EgTyEeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dWd1EwTyEeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_dWdOAQTyEeaPCaDp9Z2FXw"/>
+      <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_dWMvUATyEeaPCaDp9Z2FXw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dWdOAgTyEeaPCaDp9Z2FXw" points="[10, -7, -87, 52]$[93, -69, -4, -10]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dXK_sATyEeaPCaDp9Z2FXw" id="(1.0,0.15)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dXK_sQTyEeaPCaDp9Z2FXw" id="(0.0,0.55)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_r6QOqQTyEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_r6FPgATyEeaPCaDp9Z2FXw" target="_r6QOpQTyEeaPCaDp9Z2FXw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_r6QOqgTyEeaPCaDp9Z2FXw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_r6QOrgTyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_r6DaUATyEeaPCaDp9Z2FXw"/>
       </styles>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_WMTChQT0EeaPCaDp9Z2FXw" y="-10"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_r6QOqwTyEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r6QOrATyEeaPCaDp9Z2FXw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r6QOrQTyEeaPCaDp9Z2FXw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_sx3zMQTyEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_sxs0AATyEeaPCaDp9Z2FXw" target="_sx3zLQTyEeaPCaDp9Z2FXw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_sx3zMgTyEeaPCaDp9Z2FXw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_sx4aMgTyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_sxpwsATyEeaPCaDp9Z2FXw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sx3zMwTyEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sx4aMATyEeaPCaDp9Z2FXw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sx4aMQTyEeaPCaDp9Z2FXw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_uLX8tATyEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_uLGP4ATyEeaPCaDp9Z2FXw" target="_uLX8sATyEeaPCaDp9Z2FXw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_uLX8tQTyEeaPCaDp9Z2FXw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_uLX8uQTyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_uLDMkATyEeaPCaDp9Z2FXw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uLX8tgTyEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uLX8twTyEeaPCaDp9Z2FXw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uLX8uATyEeaPCaDp9Z2FXw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_uy5PvgTyEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_uymUwATyEeaPCaDp9Z2FXw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_uy5PvwTyEeaPCaDp9Z2FXw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_uy52wATyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_uyj4gATyEeaPCaDp9Z2FXw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uy5PwATyEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uy5PwQTyEeaPCaDp9Z2FXw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uy5PwgTyEeaPCaDp9Z2FXw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="__z3dYATyEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="__zitQATyEeaPCaDp9Z2FXw" target="__z22VgTyEeaPCaDp9Z2FXw">
+      <styles xmi:type="notation:FontStyle" xmi:id="__z3dYQTyEeaPCaDp9Z2FXw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="__z3dZQTyEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#__zfC4ATyEeaPCaDp9Z2FXw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__z3dYgTyEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__z3dYwTyEeaPCaDp9Z2FXw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__z3dZATyEeaPCaDp9Z2FXw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_D3r4JATzEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_D3YWIATzEeaPCaDp9Z2FXw" target="_D3r4IATzEeaPCaDp9Z2FXw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_D3r4JQTzEeaPCaDp9Z2FXw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_D3r4KQTzEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_D3XIAATzEeaPCaDp9Z2FXw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_D3r4JgTzEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_D3r4JwTzEeaPCaDp9Z2FXw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_D3r4KATzEeaPCaDp9Z2FXw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_G4tZLgTzEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_G4bFQATzEeaPCaDp9Z2FXw" target="_G4tZKgTzEeaPCaDp9Z2FXw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_G4tZLwTzEeaPCaDp9Z2FXw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_G4tZMwTzEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_G4YB8ATzEeaPCaDp9Z2FXw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G4tZMATzEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G4tZMQTzEeaPCaDp9Z2FXw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G4tZMgTzEeaPCaDp9Z2FXw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Iv6LVATzEeaPCaDp9Z2FXw" type="StereotypeCommentLink" source="_IvmpUATzEeaPCaDp9Z2FXw" target="_Iv6LUATzEeaPCaDp9Z2FXw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_Iv6LVQTzEeaPCaDp9Z2FXw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Iv6LWQTzEeaPCaDp9Z2FXw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_IvkNEATzEeaPCaDp9Z2FXw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Iv6LVgTzEeaPCaDp9Z2FXw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Iv6LVwTzEeaPCaDp9Z2FXw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Iv6LWATzEeaPCaDp9Z2FXw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_sFexwATzEeaPCaDp9Z2FXw" type="link_uml_connector" source="_D3YWIATzEeaPCaDp9Z2FXw" target="_uLGP4ATyEeaPCaDp9Z2FXw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sFexwwTzEeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sFexxATzEeaPCaDp9Z2FXw" y="-30"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sFfY0ATzEeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
+        <styles xmi:type="notation:StringListValueStyle" xmi:id="_v-mYYATzEeaPCaDp9Z2FXw" name="maskLabel"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sFfY0QTzEeaPCaDp9Z2FXw" y="-10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sFfY0gTzEeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sFfY0wTzEeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sFfY1ATzEeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sFfY1QTzEeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_sFexwQTzEeaPCaDp9Z2FXw"/>
+      <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_sFBewATzEeaPCaDp9Z2FXw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sFexwgTzEeaPCaDp9Z2FXw" points="[-1, 1, 99, -54]$[-99, 53, 1, -2]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sG6VIATzEeaPCaDp9Z2FXw" id="(0.0,0.6833333333333329)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sG6VIQTzEeaPCaDp9Z2FXw" id="(0.6,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_sqFToATzEeaPCaDp9Z2FXw" type="link_uml_connector" source="__zitQATyEeaPCaDp9Z2FXw" target="_uymUwATyEeaPCaDp9Z2FXw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sqFTowTzEeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sqFTpATzEeaPCaDp9Z2FXw" y="-30"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sqFTpQTzEeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sqFTpgTzEeaPCaDp9Z2FXw" y="-10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sqFTpwTzEeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sqFTqATzEeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sqFTqQTzEeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sqFTqgTzEeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_sqFToQTzEeaPCaDp9Z2FXw"/>
+      <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_spjvMATzEeaPCaDp9Z2FXw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sqFTogTzEeaPCaDp9Z2FXw" points="[-3, 2, 95, -63]$[-97, 72, 1, 7]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_srkhYATzEeaPCaDp9Z2FXw" id="(0.0,0.5833333333333328)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_srkhYQTzEeaPCaDp9Z2FXw" id="(1.0,0.15)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_VhJMsAT0EeaPCaDp9Z2FXw" type="link_uml_connector" source="_G4bFQATzEeaPCaDp9Z2FXw" target="_r6FPgATyEeaPCaDp9Z2FXw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_VhJzwgT0EeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VhJzwwT0EeaPCaDp9Z2FXw" y="-30"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_VhJzxAT0EeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
+        <styles xmi:type="notation:StringListValueStyle" xmi:id="_ewG2oAT0EeaPCaDp9Z2FXw" name="maskLabel">
+          <stringListValue>undefinedType</stringListValue>
+        </styles>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VhJzxQT0EeaPCaDp9Z2FXw" y="-10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_VhJzxgT0EeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VhJzxwT0EeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_VhJzyAT0EeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VhJzyQT0EeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_VhJzwAT0EeaPCaDp9Z2FXw"/>
+      <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_VgqrkAT0EeaPCaDp9Z2FXw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VhJzwQT0EeaPCaDp9Z2FXw" points="[-3, 0, 158, -208]$[-3, 220, 158, 12]$[-153, 220, 8, 12]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VioacAT0EeaPCaDp9Z2FXw" id="(0.3666666666666657,1.0166666666666657)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VioacQT0EeaPCaDp9Z2FXw" id="(0.6,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_WMSbcAT0EeaPCaDp9Z2FXw" type="link_uml_connector" source="_sxs0AATyEeaPCaDp9Z2FXw" target="_IvmpUATzEeaPCaDp9Z2FXw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_WMTCggT0EeaPCaDp9Z2FXw" type="linklabel_uml_appliedstereotype">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WMTCgwT0EeaPCaDp9Z2FXw" y="-30"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_WMTChAT0EeaPCaDp9Z2FXw" type="linklabel_uml_connector_label">
+        <styles xmi:type="notation:StringListValueStyle" xmi:id="_gCmZQAT0EeaPCaDp9Z2FXw" name="maskLabel">
+          <stringListValue>type</stringListValue>
+        </styles>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WMTChQT0EeaPCaDp9Z2FXw" y="-10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_WMTChgT0EeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WMTChwT0EeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_WMTpkAT0EeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WMTpkQT0EeaPCaDp9Z2FXw" y="10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_WMTCgAT0EeaPCaDp9Z2FXw"/>
+      <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_WLxeEAT0EeaPCaDp9Z2FXw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WMTCgQT0EeaPCaDp9Z2FXw" points="[3, 10, -174, 253]$[183, 10, 6, 253]$[183, -242, 6, 1]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WNU9QAT0EeaPCaDp9Z2FXw" id="(0.8666666666666657,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WNU9QQT0EeaPCaDp9Z2FXw" id="(0.0,0.95)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_TgNGwCkyEeaD69fa8ospIA" type="StereotypeCommentLink" source="_uymUwATyEeaPCaDp9Z2FXw" target="_TgL4oCkyEeaD69fa8ospIA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_TgNGwSkyEeaD69fa8ospIA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_TgNt0CkyEeaD69fa8ospIA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_uyj4gATyEeaPCaDp9Z2FXw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TgNGwikyEeaD69fa8ospIA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TgNGwykyEeaD69fa8ospIA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TgNGxCkyEeaD69fa8ospIA"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_QcV3tCkzEeaD69fa8ospIA" type="StereotypeCommentLink" source="_uymUwATyEeaPCaDp9Z2FXw" target="_QcV3sCkzEeaD69fa8ospIA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_QcV3tSkzEeaD69fa8ospIA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_QcWewSkzEeaD69fa8ospIA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_uyj4gATyEeaPCaDp9Z2FXw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QcV3tikzEeaD69fa8ospIA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QcV3tykzEeaD69fa8ospIA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QcWewCkzEeaD69fa8ospIA"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_mB_KcCkzEeaD69fa8ospIA" type="4002" source="_gnG2ICkzEeaD69fa8ospIA" target="_0G7KkATxEeaPCaDp9Z2FXw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_mB_KcSkzEeaD69fa8ospIA"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mB_KcikzEeaD69fa8ospIA" points="[-13, 10, 160, -70]$[198, -49, 371, -129]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mDY4oCkzEeaD69fa8ospIA" id="(0.27233115468409586,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mDY4oSkzEeaD69fa8ospIA" id="(0.44505494505494503,0.48120300751879697)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_-EKxECkzEeaD69fa8ospIA" type="4002" source="_7jQTgCkzEeaD69fa8ospIA" target="_bhGEUATxEeaPCaDp9Z2FXw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_-ELYICkzEeaD69fa8ospIA"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-ELYISkzEeaD69fa8ospIA" points="[4, 10, -28, -23]$[4, 33, -28, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-F2MECkzEeaD69fa8ospIA" id="(0.5284552845528446,1.0238095238095235)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-F2zICkzEeaD69fa8ospIA" id="(0.7118055555555554,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_ckmOkDIpEeaU5IHEmk0s3Q" type="StereotypeCommentLink" source="_uymUwATyEeaPCaDp9Z2FXw" target="_ckjyUDIpEeaU5IHEmk0s3Q">
+      <styles xmi:type="notation:FontStyle" xmi:id="_ckmOkTIpEeaU5IHEmk0s3Q"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ckm1oTIpEeaU5IHEmk0s3Q" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_uyj4gATyEeaPCaDp9Z2FXw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ckmOkjIpEeaU5IHEmk0s3Q" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ckmOkzIpEeaU5IHEmk0s3Q"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ckm1oDIpEeaU5IHEmk0s3Q"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_wLTHUCk0EeaD69fa8ospIA" type="InternalBlock" name="ADCS_Internal_block_diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_wLTuYCk0EeaD69fa8ospIA" type="shape_sysml_block_as_composite">
+      <children xmi:type="notation:DecorationNode" xmi:id="_wLUVcCk0EeaD69fa8ospIA" type="label_sysml_block_name"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_wLUVcSk0EeaD69fa8ospIA" type="compartment_sysml_structure">
+        <children xmi:type="notation:Shape" xmi:id="_dPBOECk1EeaD69fa8ospIA" type="shape_sysml_blockproperty_as_composite">
+          <children xmi:type="notation:DecorationNode" xmi:id="_dPCcMCk1EeaD69fa8ospIA" type="label_uml_property_label"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_dPCcMSk1EeaD69fa8ospIA" type="compartment_sysml_blockproperty_structure">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_dPCcMik1EeaD69fa8ospIA"/>
+          </children>
+          <element xmi:type="uml:Property" href="Drone%20Frame.uml#_c_I_ACk1EeaD69fa8ospIA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dPBOESk1EeaD69fa8ospIA" x="166" y="53" width="200" height="100"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_30y-cDIrEeaU5IHEmk0s3Q" type="shape_sysml_blockproperty_as_composite">
+          <children xmi:type="notation:DecorationNode" xmi:id="_300zoDIrEeaU5IHEmk0s3Q" type="label_uml_property_label"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_301asDIrEeaU5IHEmk0s3Q" type="compartment_sysml_blockproperty_structure">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_301asTIrEeaU5IHEmk0s3Q"/>
+          </children>
+          <element xmi:type="uml:Property" href="Drone%20Frame.uml#_3hjSUDIrEeaU5IHEmk0s3Q"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_30y-cTIrEeaU5IHEmk0s3Q" x="213" y="215" width="200" height="100"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_wLUVcik0EeaD69fa8ospIA"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_wOnhECk0EeaD69fa8ospIA" type="StereotypeLabel">
+        <styles xmi:type="notation:StringValueStyle" xmi:id="_wOnhESk0EeaD69fa8ospIA" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element xmi:type="uml:Stereotype" href="pathmap://SysML_PROFILES/SysML.profile.uml#_8J2A8LVAEdu2ieF4ON8UjA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wOnhEik0EeaD69fa8ospIA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_wOu10Ck0EeaD69fa8ospIA" type="StereotypeBrace">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_wOu10Sk0EeaD69fa8ospIA"/>
+        <styles xmi:type="notation:StringValueStyle" xmi:id="_wOu10ik0EeaD69fa8ospIA" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element xmi:type="uml:Stereotype" href="pathmap://SysML_PROFILES/SysML.profile.uml#_8J2A8LVAEdu2ieF4ON8UjA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wOu10yk0EeaD69fa8ospIA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_wOwrACk0EeaD69fa8ospIA" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_wOwrASk0EeaD69fa8ospIA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wOwrAik0EeaD69fa8ospIA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_wOzuUCk0EeaD69fa8ospIA" type="StereotypeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_wOzuUSk0EeaD69fa8ospIA"/>
+        <styles xmi:type="notation:StringValueStyle" xmi:id="_wOzuUik0EeaD69fa8ospIA" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element xmi:type="uml:Stereotype" href="pathmap://SysML_PROFILES/SysML.profile.uml#_8J2A8LVAEdu2ieF4ON8UjA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wOzuUyk0EeaD69fa8ospIA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Kcwo8Ck1EeaD69fa8ospIA" type="shape_sysml_flowport_as_affixed">
+        <children xmi:type="notation:DecorationNode" xmi:id="_KcxQACk1EeaD69fa8ospIA" type="affixedlabel_sysml_flowport_label">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_KcxQASk1EeaD69fa8ospIA" x="-63" y="32"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_KcxQAik1EeaD69fa8ospIA" type="affixedlabel_uml_appliedstereotype">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_KcxQAyk1EeaD69fa8ospIA" x="-39" y="-16"/>
+        </children>
+        <element xmi:type="uml:Port" href="Drone%20Frame.uml#_KcotICk1EeaD69fa8ospIA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kcwo8Sk1EeaD69fa8ospIA" x="-10" y="157" width="20" height="20"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_oMfBMCk1EeaD69fa8ospIA" type="shape_sysml_flowport_as_affixed">
+        <children xmi:type="notation:DecorationNode" xmi:id="_oMgPUCk1EeaD69fa8ospIA" type="affixedlabel_sysml_flowport_label">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_oMgPUSk1EeaD69fa8ospIA" x="-126" y="-12"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_oMg2YCk1EeaD69fa8ospIA" type="affixedlabel_uml_appliedstereotype">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_oMg2YSk1EeaD69fa8ospIA" x="30" y="-20"/>
+        </children>
+        <element xmi:type="uml:Port" href="Drone%20Frame.uml#_oMGmsCk1EeaD69fa8ospIA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oMfBMSk1EeaD69fa8ospIA" x="-10" y="112" width="20" height="20"/>
+      </children>
+      <element xmi:type="uml:Class" href="Drone%20Frame.uml#_CklDwATuEeaPCaDp9Z2FXw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wLTuYSk0EeaD69fa8ospIA" x="40" y="40" width="499" height="406"/>
     </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_WMTChgT0EeaPCaDp9Z2FXw" type="linklabel_uml_connector_source_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_WMTChwT0EeaPCaDp9Z2FXw" y="10"/>
+    <children xmi:type="notation:Shape" xmi:id="_Kc5L0Ck1EeaD69fa8ospIA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Kc5L0Sk1EeaD69fa8ospIA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Kc5L0yk1EeaD69fa8ospIA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_KcotICk1EeaD69fa8ospIA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kc5L0ik1EeaD69fa8ospIA" x="190" y="157"/>
     </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_WMTpkAT0EeaPCaDp9Z2FXw" type="linklabel_uml_connector_target_multiplicity">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_WMTpkQT0EeaPCaDp9Z2FXw" y="10"/>
+    <children xmi:type="notation:Shape" xmi:id="_oMxVECk1EeaD69fa8ospIA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_oMxVESk1EeaD69fa8ospIA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_oMxVEyk1EeaD69fa8ospIA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_oMGmsCk1EeaD69fa8ospIA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oMxVEik1EeaD69fa8ospIA" x="190" y="112"/>
     </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_WMTCgAT0EeaPCaDp9Z2FXw"/>
-    <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_WLxeEAT0EeaPCaDp9Z2FXw"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WMTCgQT0EeaPCaDp9Z2FXw" points="[3, 10, -174, 253]$[183, 10, 6, 253]$[183, -242, 6, 1]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WNU9QAT0EeaPCaDp9Z2FXw" id="(0.8666666666666657,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WNU9QQT0EeaPCaDp9Z2FXw" id="(0.0,0.95)"/>
-  </edges>
-</notation:Diagram>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_wLTHUSk0EeaD69fa8ospIA"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_wLTHUik0EeaD69fa8ospIA">
+      <owner xmi:type="uml:Model" href="Drone%20Frame.uml#_WFCwICk0EeaD69fa8ospIA"/>
+    </styles>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_wN36MCk0EeaD69fa8ospIA" name="diagram_compatibility_version" stringValue="1.1.0"/>
+    <element xmi:type="uml:Class" href="Drone%20Frame.uml#_CklDwATuEeaPCaDp9Z2FXw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_Kc5L1Ck1EeaD69fa8ospIA" type="StereotypeCommentLink" source="_Kcwo8Ck1EeaD69fa8ospIA" target="_Kc5L0Ck1EeaD69fa8ospIA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_Kc5L1Sk1EeaD69fa8ospIA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Kc5L2Sk1EeaD69fa8ospIA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_KcotICk1EeaD69fa8ospIA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Kc5L1ik1EeaD69fa8ospIA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kc5L1yk1EeaD69fa8ospIA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kc5L2Ck1EeaD69fa8ospIA"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_mKla4Ck1EeaD69fa8ospIA" type="link_uml_connector" source="_Kcwo8Ck1EeaD69fa8ospIA" target="_dPBOECk1EeaD69fa8ospIA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_mKla4yk1EeaD69fa8ospIA" type="linklabel_uml_appliedstereotype">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mKla5Ck1EeaD69fa8ospIA" y="-30"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_mKmB8Ck1EeaD69fa8ospIA" type="linklabel_uml_connector_label">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mKmB8Sk1EeaD69fa8ospIA" y="-10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_mKmB8ik1EeaD69fa8ospIA" type="linklabel_uml_connector_source_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mKmB8yk1EeaD69fa8ospIA" y="10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_mKmpACk1EeaD69fa8ospIA" type="linklabel_uml_connector_target_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mKmpASk1EeaD69fa8ospIA" y="10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_mKla4Sk1EeaD69fa8ospIA"/>
+      <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_mKabwCk1EeaD69fa8ospIA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mKla4ik1EeaD69fa8ospIA" points="[20, -1, -177, 6]$[182, -5, -15, 2]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mLWP4Ck1EeaD69fa8ospIA" id="(1.0,0.3)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mLWP4Sk1EeaD69fa8ospIA" id="(0.0,0.62)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_oMxVFCk1EeaD69fa8ospIA" type="StereotypeCommentLink" source="_oMfBMCk1EeaD69fa8ospIA" target="_oMxVECk1EeaD69fa8ospIA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_oMxVFSk1EeaD69fa8ospIA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_oMx8Iik1EeaD69fa8ospIA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Port" href="Drone%20Frame.uml#_oMGmsCk1EeaD69fa8ospIA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oMxVFik1EeaD69fa8ospIA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oMx8ICk1EeaD69fa8ospIA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oMx8ISk1EeaD69fa8ospIA"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_rYUrECk1EeaD69fa8ospIA" type="link_uml_connector" source="_oMfBMCk1EeaD69fa8ospIA" target="_dPBOECk1EeaD69fa8ospIA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_rYVSICk1EeaD69fa8ospIA" type="linklabel_uml_appliedstereotype">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_rYVSISk1EeaD69fa8ospIA" y="-30"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_rYVSIik1EeaD69fa8ospIA" type="linklabel_uml_connector_label">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_rYVSIyk1EeaD69fa8ospIA" y="-10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_rYVSJCk1EeaD69fa8ospIA" type="linklabel_uml_connector_source_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_rYVSJSk1EeaD69fa8ospIA" y="10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_rYV5MCk1EeaD69fa8ospIA" type="linklabel_uml_connector_target_multiplicity">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_rYV5MSk1EeaD69fa8ospIA" y="10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_rYUrESk1EeaD69fa8ospIA"/>
+      <element xmi:type="uml:Connector" href="Drone%20Frame.uml#_rYMIMCk1EeaD69fa8ospIA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rYUrEik1EeaD69fa8ospIA" points="[20, 0, -183, -2]$[182, -4, -21, -6]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rY1ocCk1EeaD69fa8ospIA" id="(1.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rY1ocSk1EeaD69fa8ospIA" id="(0.0,0.28)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>
