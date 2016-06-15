@@ -15,6 +15,8 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_jDi-kATwEeaPCaDp9Z2FXw" name="Power" type="_k9W_4ATwEeaPCaDp9Z2FXw" aggregation="composite" association="_k9YOAATwEeaPCaDp9Z2FXw"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_xPVu4ATwEeaPCaDp9Z2FXw" name="Flight_Control" type="_xbX_wATwEeaPCaDp9Z2FXw" aggregation="composite" association="_xbZN4ATwEeaPCaDp9Z2FXw"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_zvkP8ATwEeaPCaDp9Z2FXw" name="COM" type="_z7SXwATwEeaPCaDp9Z2FXw" aggregation="composite" association="_z7Tl4ATwEeaPCaDp9Z2FXw"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_C9L6oDKZEean6soSUIEAGA" name="flowport1" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_fwwFQDKcEean6soSUIEAGA" name="part1" type="_gknyMDKcEean6soSUIEAGA" aggregation="composite" association="_gkqOcDKcEean6soSUIEAGA"/>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_bg6eIATxEeaPCaDp9Z2FXw">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_bg7sQATxEeaPCaDp9Z2FXw" partWithPort="_A30nAATuEeaPCaDp9Z2FXw" role="_7xna0ATwEeaPCaDp9Z2FXw"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_bg7sQQTxEeaPCaDp9Z2FXw" partWithPort="_xPVu4ATwEeaPCaDp9Z2FXw" role="_R4UzQATxEeaPCaDp9Z2FXw"/>
@@ -47,13 +49,20 @@
           <end xmi:type="uml:ConnectorEnd" xmi:id="_WLyFIAT0EeaPCaDp9Z2FXw" partWithPort="_VDngAATwEeaPCaDp9Z2FXw" role="_sxpwsATyEeaPCaDp9Z2FXw"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_WLyFIQT0EeaPCaDp9Z2FXw" partWithPort="_xPVu4ATwEeaPCaDp9Z2FXw" role="_IvkNEATzEeaPCaDp9Z2FXw"/>
         </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_DujGIDKZEean6soSUIEAGA" name="Connector4">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_DujtMDKZEean6soSUIEAGA" partWithPort="_zvkP8ATwEeaPCaDp9Z2FXw" role="_Azm_ADKZEean6soSUIEAGA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_DukUQDKZEean6soSUIEAGA" role="_C9L6oDKZEean6soSUIEAGA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_jHXbwDKcEean6soSUIEAGA" name="Connector5">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_jHYC0DKcEean6soSUIEAGA" partWithPort="_xPVu4ATwEeaPCaDp9Z2FXw" role="_iZKR8DKcEean6soSUIEAGA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_jHYC0TKcEean6soSUIEAGA" partWithPort="_fwwFQDKcEean6soSUIEAGA" role="_hxZuYDKcEean6soSUIEAGA"/>
+        </ownedConnector>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_CklDwATuEeaPCaDp9Z2FXw" name="adcs">
         <ownedAttribute xmi:type="uml:Port" xmi:id="_7xna0ATwEeaPCaDp9Z2FXw" name="output data" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_KcotICk1EeaD69fa8ospIA" name="SCL" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_c_I_ACk1EeaD69fa8ospIA" name="MPU6050" type="_dOykkCk1EeaD69fa8ospIA" aggregation="composite" association="_dO1n4Ck1EeaD69fa8ospIA"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_oMGmsCk1EeaD69fa8ospIA" name="SDA" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_3hjSUDIrEeaU5IHEmk0s3Q" name="part1" type="_3xcIcDIrEeaU5IHEmk0s3Q" aggregation="composite" association="_3yLIQDIrEeaU5IHEmk0s3Q"/>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_mKabwCk1EeaD69fa8ospIA" name="CLK">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_mKbC0Ck1EeaD69fa8ospIA" role="_KcotICk1EeaD69fa8ospIA"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_mKbC0Sk1EeaD69fa8ospIA" role="_c_I_ACk1EeaD69fa8ospIA"/>
@@ -73,6 +82,33 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_wcvCsATvEeaPCaDp9Z2FXw" name="propulsion">
         <ownedAttribute xmi:type="uml:Port" xmi:id="_quSnQATxEeaPCaDp9Z2FXw" name="Input data" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_HjTDsATyEeaPCaDp9Z2FXw" name="Vcc + GND" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_hYIFADKXEean6soSUIEAGA" name="part1" type="_kOM6QDKXEean6soSUIEAGA" aggregation="composite" association="_kOi4gDKXEean6soSUIEAGA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_m8HSADKXEean6soSUIEAGA" name="part2" type="_ozxXMDKXEean6soSUIEAGA" aggregation="composite" association="_oz3d0DKXEean6soSUIEAGA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_q2e10DKXEean6soSUIEAGA" name="part3" type="_rfldMDKXEean6soSUIEAGA" aggregation="composite" association="_rfq8wDKXEean6soSUIEAGA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_zoQ0gDKXEean6soSUIEAGA" name="part4" type="_0ccDcDKXEean6soSUIEAGA" aggregation="composite" association="_0cft0DKXEean6soSUIEAGA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_1BOykDKXEean6soSUIEAGA" name="part5" type="_1jP6gDKXEean6soSUIEAGA" aggregation="composite" association="_1jS90DKXEean6soSUIEAGA"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_b29tEDKYEean6soSUIEAGA" name="Port1" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_lQdzEDKYEean6soSUIEAGA" name="VCC" aggregation="composite"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_BRC-YDKYEean6soSUIEAGA" name="Connector1">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_BRFaoDKYEean6soSUIEAGA" partWithPort="_hYIFADKXEean6soSUIEAGA" role="_-uapkDKXEean6soSUIEAGA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_BRGowDKYEean6soSUIEAGA" partWithPort="_m8HSADKXEean6soSUIEAGA" role="_7VIZkDKXEean6soSUIEAGA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_B6ot8DKYEean6soSUIEAGA" name="Connector2">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_B6p8EDKYEean6soSUIEAGA" partWithPort="_hYIFADKXEean6soSUIEAGA" role="_-uapkDKXEean6soSUIEAGA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_B6qjIDKYEean6soSUIEAGA" partWithPort="_q2e10DKXEean6soSUIEAGA" role="_8OXusDKXEean6soSUIEAGA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_CZkssDKYEean6soSUIEAGA" name="Connector3">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_CZl60DKYEean6soSUIEAGA" partWithPort="_hYIFADKXEean6soSUIEAGA" role="_-uapkDKXEean6soSUIEAGA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_CZl60TKYEean6soSUIEAGA" partWithPort="_zoQ0gDKXEean6soSUIEAGA" role="_8zRykDKXEean6soSUIEAGA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_C5KLsDKYEean6soSUIEAGA" name="Connector4">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_C5LZ0DKYEean6soSUIEAGA" partWithPort="_hYIFADKXEean6soSUIEAGA" role="_-uapkDKXEean6soSUIEAGA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_C5LZ0TKYEean6soSUIEAGA" partWithPort="_1BOykDKXEean6soSUIEAGA" role="_9ojNsDKXEean6soSUIEAGA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_dqGeoDKYEean6soSUIEAGA" name="Connector5">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_dqIT0DKYEean6soSUIEAGA" role="_b29tEDKYEean6soSUIEAGA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_dqIT0TKYEean6soSUIEAGA" partWithPort="_hYIFADKXEean6soSUIEAGA" role="_XBPUQDKYEean6soSUIEAGA"/>
+        </ownedConnector>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_wcwQ0ATvEeaPCaDp9Z2FXw" name="Association2" memberEnd="_vmMcQATvEeaPCaDp9Z2FXw _wcwQ0wTvEeaPCaDp9Z2FXw">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wcwQ0QTvEeaPCaDp9Z2FXw" source="org.eclipse.papyrus">
@@ -108,6 +144,38 @@
         <ownedAttribute xmi:type="uml:Port" xmi:id="_D3XIAATzEeaPCaDp9Z2FXw" name="output data_to_ground" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_G4YB8ATzEeaPCaDp9Z2FXw" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_IvkNEATzEeaPCaDp9Z2FXw" name=" " aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ZHYaADKbEean6soSUIEAGA" name="part1" type="_Z7CrkDKbEean6soSUIEAGA" aggregation="composite" association="_Z7D5sDKbEean6soSUIEAGA"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_cnQaMDKbEean6soSUIEAGA" name="SDA_ADCS" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_vFVfEDKbEean6soSUIEAGA" name="PROPULSION" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_x6lN4DKbEean6soSUIEAGA" name="COMANDS" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_U9FuYDKcEean6soSUIEAGA" name="part2" type="_V4QWIDKcEean6soSUIEAGA" aggregation="composite" association="_V4SyYDKcEean6soSUIEAGA"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_WyBPsDKcEean6soSUIEAGA" name="flowport1" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_iZKR8DKcEean6soSUIEAGA" name="flowport2" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_xrOGwDKcEean6soSUIEAGA" name="flowport3" aggregation="composite"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_4aQnEDKbEean6soSUIEAGA" name="Connector1">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_4aROIDKbEean6soSUIEAGA" partWithPort="_ZHYaADKbEean6soSUIEAGA" role="_1y-bwDKbEean6soSUIEAGA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_4aROITKbEean6soSUIEAGA" role="_vFVfEDKbEean6soSUIEAGA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_4-NosDKbEean6soSUIEAGA" name="Connector2">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_4-OPwDKbEean6soSUIEAGA" role="_cnQaMDKbEean6soSUIEAGA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_4-OPwTKbEean6soSUIEAGA" partWithPort="_ZHYaADKbEean6soSUIEAGA" role="_1PLyMDKbEean6soSUIEAGA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_5irAoDKbEean6soSUIEAGA" name="Connector3">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_5isOwDKbEean6soSUIEAGA" role="_x6lN4DKbEean6soSUIEAGA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_5is10DKbEean6soSUIEAGA" partWithPort="_ZHYaADKbEean6soSUIEAGA" role="_0eWLIDKbEean6soSUIEAGA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_Z_454DKcEean6soSUIEAGA" name="Connector4">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_Z_5g8DKcEean6soSUIEAGA" partWithPort="_ZHYaADKbEean6soSUIEAGA" role="_YqRKwDKcEean6soSUIEAGA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_Z_5g8TKcEean6soSUIEAGA" role="_WyBPsDKcEean6soSUIEAGA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_strOsDKcEean6soSUIEAGA" name="Connector5">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_str1wDKcEean6soSUIEAGA" partWithPort="_ZHYaADKbEean6soSUIEAGA" role="_sBF1gDKcEean6soSUIEAGA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_str1wTKcEean6soSUIEAGA" partWithPort="_U9FuYDKcEean6soSUIEAGA" role="_rewkgDKcEean6soSUIEAGA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_zjlWkDKcEean6soSUIEAGA" name="Connector6">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_zjmksDKcEean6soSUIEAGA" partWithPort="_U9FuYDKcEean6soSUIEAGA" role="_w-0TwDKcEean6soSUIEAGA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_zjmksTKcEean6soSUIEAGA" role="_xrOGwDKcEean6soSUIEAGA"/>
+        </ownedConnector>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_xbZN4ATwEeaPCaDp9Z2FXw" name="Association5" memberEnd="_xPVu4ATwEeaPCaDp9Z2FXw _xbZN4wTwEeaPCaDp9Z2FXw">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xbZN4QTwEeaPCaDp9Z2FXw" source="org.eclipse.papyrus">
@@ -118,6 +186,7 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_z7SXwATwEeaPCaDp9Z2FXw" name="communication">
         <ownedAttribute xmi:type="uml:Port" xmi:id="_uLDMkATyEeaPCaDp9Z2FXw" name="output data_to_ground" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_uyj4gATyEeaPCaDp9Z2FXw" name="Command &amp; HK" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_Azm_ADKZEean6soSUIEAGA" name="flowport1" aggregation="composite"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_z7Tl4ATwEeaPCaDp9Z2FXw" name="Association6" memberEnd="_zvkP8ATwEeaPCaDp9Z2FXw _z7Tl4wTwEeaPCaDp9Z2FXw">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z7Tl4QTwEeaPCaDp9Z2FXw" source="org.eclipse.papyrus">
@@ -134,11 +203,85 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_dO1n4yk1EeaD69fa8ospIA" name="adcs" type="_CklDwATuEeaPCaDp9Z2FXw" association="_dO1n4Ck1EeaD69fa8ospIA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_3xcIcDIrEeaU5IHEmk0s3Q" name="Block3"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_3yLIQDIrEeaU5IHEmk0s3Q" name="Association8" memberEnd="_3hjSUDIrEeaU5IHEmk0s3Q _3yLIQzIrEeaU5IHEmk0s3Q">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3yLIQTIrEeaU5IHEmk0s3Q" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3yLIQjIrEeaU5IHEmk0s3Q" key="nature" value="SysML_Nature"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_kOM6QDKXEean6soSUIEAGA" name="PropulsionController">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_-uapkDKXEean6soSUIEAGA" name="flowport1" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_XBPUQDKYEean6soSUIEAGA" name="flowport2" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_kOi4gDKXEean6soSUIEAGA" name="Association8" memberEnd="_hYIFADKXEean6soSUIEAGA _kOi4gzKXEean6soSUIEAGA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kOi4gTKXEean6soSUIEAGA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kOi4gjKXEean6soSUIEAGA" key="nature" value="SysML_Nature"/>
         </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_3yLIQzIrEeaU5IHEmk0s3Q" name="adcs" type="_CklDwATuEeaPCaDp9Z2FXw" association="_3yLIQDIrEeaU5IHEmk0s3Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_kOi4gzKXEean6soSUIEAGA" name="propulsion" type="_wcvCsATvEeaPCaDp9Z2FXw" association="_kOi4gDKXEean6soSUIEAGA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ozxXMDKXEean6soSUIEAGA" name="Motor1">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_7VIZkDKXEean6soSUIEAGA" name="flowport1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_oz3d0DKXEean6soSUIEAGA" name="Association9" memberEnd="_m8HSADKXEean6soSUIEAGA _oz3d0zKXEean6soSUIEAGA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oz3d0TKXEean6soSUIEAGA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oz3d0jKXEean6soSUIEAGA" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_oz3d0zKXEean6soSUIEAGA" name="propulsion" type="_wcvCsATvEeaPCaDp9Z2FXw" association="_oz3d0DKXEean6soSUIEAGA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rfldMDKXEean6soSUIEAGA" name="Motor2">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_8OXusDKXEean6soSUIEAGA" name="flowport1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_rfq8wDKXEean6soSUIEAGA" name="Association10" memberEnd="_q2e10DKXEean6soSUIEAGA _rfq8wzKXEean6soSUIEAGA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rfq8wTKXEean6soSUIEAGA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rfq8wjKXEean6soSUIEAGA" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_rfq8wzKXEean6soSUIEAGA" name="propulsion" type="_wcvCsATvEeaPCaDp9Z2FXw" association="_rfq8wDKXEean6soSUIEAGA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_0ccDcDKXEean6soSUIEAGA" name="Motor3">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_8zRykDKXEean6soSUIEAGA" name="flowport1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_0cft0DKXEean6soSUIEAGA" name="Association11" memberEnd="_zoQ0gDKXEean6soSUIEAGA _0cft0zKXEean6soSUIEAGA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0cft0TKXEean6soSUIEAGA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0cft0jKXEean6soSUIEAGA" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_0cft0zKXEean6soSUIEAGA" name="propulsion" type="_wcvCsATvEeaPCaDp9Z2FXw" association="_0cft0DKXEean6soSUIEAGA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1jP6gDKXEean6soSUIEAGA" name="Motor4">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_9ojNsDKXEean6soSUIEAGA" name="flowport1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_1jS90DKXEean6soSUIEAGA" name="Association12" memberEnd="_1BOykDKXEean6soSUIEAGA _1jS90zKXEean6soSUIEAGA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1jS90TKXEean6soSUIEAGA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1jS90jKXEean6soSUIEAGA" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_1jS90zKXEean6soSUIEAGA" name="propulsion" type="_wcvCsATvEeaPCaDp9Z2FXw" association="_1jS90DKXEean6soSUIEAGA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_QRMccDKbEean6soSUIEAGA" name="adcs_Controller"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Xim0kDKbEean6soSUIEAGA" name="Block4"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Z7CrkDKbEean6soSUIEAGA" name="controller">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_0eWLIDKbEean6soSUIEAGA" name="flowport1" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_1PLyMDKbEean6soSUIEAGA" name="flowport2" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_1y-bwDKbEean6soSUIEAGA" name="flowport3" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_YqRKwDKcEean6soSUIEAGA" name="flowport4" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_sBF1gDKcEean6soSUIEAGA" name="flowport5" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Z7D5sDKbEean6soSUIEAGA" name="Association13" memberEnd="_ZHYaADKbEean6soSUIEAGA _Z7D5szKbEean6soSUIEAGA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Z7D5sTKbEean6soSUIEAGA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Z7D5sjKbEean6soSUIEAGA" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Z7D5szKbEean6soSUIEAGA" name="flight_control" type="_xbX_wATwEeaPCaDp9Z2FXw" association="_Z7D5sDKbEean6soSUIEAGA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_V4QWIDKcEean6soSUIEAGA" name="Telemetry_Generator">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_rewkgDKcEean6soSUIEAGA" name="flowport1" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_w-0TwDKcEean6soSUIEAGA" name="flowport2" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_V4SyYDKcEean6soSUIEAGA" name="Association14" memberEnd="_U9FuYDKcEean6soSUIEAGA _V4SyYzKcEean6soSUIEAGA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V4SyYTKcEean6soSUIEAGA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V4SyYjKcEean6soSUIEAGA" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_V4SyYzKcEean6soSUIEAGA" name="flight_control" type="_xbX_wATwEeaPCaDp9Z2FXw" association="_V4SyYDKcEean6soSUIEAGA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_gknyMDKcEean6soSUIEAGA" name="Mass Memory">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_hxZuYDKcEean6soSUIEAGA" name="flowport1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_gkqOcDKcEean6soSUIEAGA" name="Association15" memberEnd="_fwwFQDKcEean6soSUIEAGA _gkqOczKcEean6soSUIEAGA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gkqOcTKcEean6soSUIEAGA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gkqOcjKcEean6soSUIEAGA" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_gkqOczKcEean6soSUIEAGA" name="drone frame" type="_6NeO4ATtEeaPCaDp9Z2FXw" association="_gkqOcDKcEean6soSUIEAGA"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Model" xmi:id="_WFCwICk0EeaD69fa8ospIA" name="Internal_Block_Diagram"/>
@@ -237,4 +380,36 @@
   <Blocks:Block xmi:id="_dOzysCk1EeaD69fa8ospIA" base_Class="_dOykkCk1EeaD69fa8ospIA"/>
   <PortAndFlows:FlowPort xmi:id="_oMMtUCk1EeaD69fa8ospIA" base_Port="_oMGmsCk1EeaD69fa8ospIA"/>
   <Blocks:Block xmi:id="_3xhoADIrEeaU5IHEmk0s3Q" base_Class="_3xcIcDIrEeaU5IHEmk0s3Q"/>
+  <Blocks:Block xmi:id="_kOOIYDKXEean6soSUIEAGA" base_Class="_kOM6QDKXEean6soSUIEAGA"/>
+  <Blocks:Block xmi:id="_ozzMYDKXEean6soSUIEAGA" base_Class="_ozxXMDKXEean6soSUIEAGA"/>
+  <Blocks:Block xmi:id="_rfnSYDKXEean6soSUIEAGA" base_Class="_rfldMDKXEean6soSUIEAGA"/>
+  <Blocks:Block xmi:id="_0cdRkDKXEean6soSUIEAGA" base_Class="_0ccDcDKXEean6soSUIEAGA"/>
+  <Blocks:Block xmi:id="_1jQhkDKXEean6soSUIEAGA" base_Class="_1jP6gDKXEean6soSUIEAGA"/>
+  <PortAndFlows:FlowPort xmi:id="_7VMD8DKXEean6soSUIEAGA" base_Port="_7VIZkDKXEean6soSUIEAGA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_8OaK8DKXEean6soSUIEAGA" base_Port="_8OXusDKXEean6soSUIEAGA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_8zTnwDKXEean6soSUIEAGA" base_Port="_8zRykDKXEean6soSUIEAGA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_9om4EDKXEean6soSUIEAGA" base_Port="_9ojNsDKXEean6soSUIEAGA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_-ueT8DKXEean6soSUIEAGA" base_Port="_-uapkDKXEean6soSUIEAGA" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_XBRwgDKYEean6soSUIEAGA" base_Port="_XBPUQDKYEean6soSUIEAGA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_AzoNIDKZEean6soSUIEAGA" base_Port="_Azm_ADKZEean6soSUIEAGA" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_C9RaMDKZEean6soSUIEAGA" base_Port="_C9L6oDKZEean6soSUIEAGA" direction="out"/>
+  <Blocks:Block xmi:id="_QRNqkDKbEean6soSUIEAGA" base_Class="_QRMccDKbEean6soSUIEAGA"/>
+  <Blocks:Block xmi:id="_XioCsDKbEean6soSUIEAGA" base_Class="_Xim0kDKbEean6soSUIEAGA"/>
+  <Blocks:Block xmi:id="_Z7DSoDKbEean6soSUIEAGA" base_Class="_Z7CrkDKbEean6soSUIEAGA"/>
+  <PortAndFlows:FlowPort xmi:id="_cnTdgDKbEean6soSUIEAGA" base_Port="_cnQaMDKbEean6soSUIEAGA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_vFYiYDKbEean6soSUIEAGA" base_Port="_vFVfEDKbEean6soSUIEAGA" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_x6rUgDKbEean6soSUIEAGA" base_Port="_x6lN4DKbEean6soSUIEAGA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_0eXZQDKbEean6soSUIEAGA" base_Port="_0eWLIDKbEean6soSUIEAGA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_1PMZQDKbEean6soSUIEAGA" base_Port="_1PLyMDKbEean6soSUIEAGA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_1y_p4DKbEean6soSUIEAGA" base_Port="_1y-bwDKbEean6soSUIEAGA" direction="out"/>
+  <Blocks:Block xmi:id="_V4RkQDKcEean6soSUIEAGA" base_Class="_V4QWIDKcEean6soSUIEAGA"/>
+  <PortAndFlows:FlowPort xmi:id="_WyGIMDKcEean6soSUIEAGA" base_Port="_WyBPsDKcEean6soSUIEAGA" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_YqSY4DKcEean6soSUIEAGA" base_Port="_YqRKwDKcEean6soSUIEAGA" direction="out"/>
+  <Blocks:Block xmi:id="_gkpAUDKcEean6soSUIEAGA" base_Class="_gknyMDKcEean6soSUIEAGA"/>
+  <PortAndFlows:FlowPort xmi:id="_hxa8gDKcEean6soSUIEAGA" base_Port="_hxZuYDKcEean6soSUIEAGA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_iZOjYDKcEean6soSUIEAGA" base_Port="_iZKR8DKcEean6soSUIEAGA" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_reyZsDKcEean6soSUIEAGA" base_Port="_rewkgDKcEean6soSUIEAGA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_sBHqsDKcEean6soSUIEAGA" base_Port="_sBF1gDKcEean6soSUIEAGA" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_w-1h4DKcEean6soSUIEAGA" base_Port="_w-0TwDKcEean6soSUIEAGA" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_xrSYMDKcEean6soSUIEAGA" base_Port="_xrOGwDKcEean6soSUIEAGA" direction="out"/>
 </xmi:XMI>
